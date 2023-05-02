@@ -40,7 +40,20 @@
         "postcode_placeholder": "ಅಂಚೆ ಕೋಡ್",
         "pincode_label": "ಪಿನ್ ಕೋಡ್",
         "pincode_placeholder": "ಪಿನ್ ಕೋಡ್",
-        "civic_number_warning": "ನೀವು ಮನೆ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಅದನ್ನು ಸೇರಿಸಿ"
+        "civic_number_warning": "ನೀವು ಮನೆ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಅದನ್ನು ಸೇರಿಸಿ",
+        "title": "ಮಾಹಿತಿ",
+        "address_title": "ವಿಳಾಸ",
+        "shipping_address_title": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸ",
+        "delivery_option_title": "ವಿತರಣಾ ವಿಧಾನ",
+        "contact_method_title": "ಸಂಪರ್ಕ ಮಾಹಿತಿ",
+        "email_label": "ಇಮೇಲ್",
+        "email_placeholder": "ಇಮೇಲ್",
+        "email_or_phone_label": "ಇಮೇಲ್ ಅಥವಾ ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆ",
+        "email_or_phone_placeholder": "ಇಮೇಲ್ ಅಥವಾ ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆ",
+        "stored_addresses_label": "ಉಳಿಸಿದ ವಿಳಾಸಗಳು",
+        "new_address_label": "ಹೊಸ ವಿಳಾಸವನ್ನು ಬಳಸಿ",
+        "first_name_label": "ಮೊದಲ ಹೆಸರು",
+        "optional_first_name_label": "ಮೊದಲ ಹೆಸರು (ಐಚ್ಛಿಕ)"
       },
       "delivery_options": {
         "free_total_label": "ಉಚಿತ",
@@ -663,7 +676,57 @@
           },
           "following_cycles": ", ನಂತರ %{total_price} ಪ್ರತಿ %{interval}"
         }
+      },
+      "general": {
+        "page_title": "ಚೆಕ್ಔಟ್",
+        "error_page_title": "ದೋಷ",
+        "skip_to_content": "ವಿಷಯಕ್ಕೆ ತೆರಳಿ",
+        "breadcrumb": "ಬ್ರೆಡ್ಕ್ರಂಬ್",
+        "continue_button_label": "ಮುಂದುವರಿಸಿ",
+        "complete_purchase_button_label": "ಸಂಪೂರ್ಣ ಆದೇಶ",
+        "pay_now_button_label": "ಈಗ ಪಾವತಿಸಿ",
+        "authenticate_purchase_button_label": "ಪಾವತಿಯನ್ನು ಪ್ರಮಾಣೀಕರಿಸಿ",
+        "edit_link_label": "ತಿದ್ದು",
+        "all_rights_reserved": "ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ %{shop_name}",
+        "print_policies_link_label": "ಮುದ್ರಿಸಿ",
+        "cart": "ಕಾರ್ಟ್",
+        "close_modal_label": "ಮುಚ್ಚಿ",
+        "close_notice_label": "ಮುಚ್ಚಿ",
+        "expand_notice_label": "ಇನ್ನಷ್ಟು ವೀಕ್ಷಿಸಿ",
+        "continue_to_shipping_method": "ಶಿಪ್ಪಿಂಗ್‌ಗೆ ಮುಂದುವರಿಯಿರಿ",
+        "continue_to_payment_method": "ಪಾವತಿಯನ್ನು ಮುಂದುವರಿಸಿ",
+        "continue_to_review": "ಆದೇಶವನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "back_to_cart": "ಕಾರ್ಟ್‌ಗೆ ಹಿಂತಿರುಗಿ",
+        "back_to_contact_information": "ಮಾಹಿತಿಗೆ ಹಿಂತಿರುಗಿ",
+        "back_to_shipping_method": "ಶಿಪ್ಪಿಂಗ್ ಗೆ ಹಿಂತಿರುಗಿ",
+        "back_to_payment_method": "ಪಾವತಿಗೆ ಹಿಂತಿರುಗಿ",
+        "choose_shipping_method": "ಶಿಪ್ಪಿಂಗ್ ವಿಧಾನವನ್ನು ಆರಿಸಿ",
+        "choose_payment_method": "ಪಾವತಿ ವಿಧಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "choose_billing_address": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "contact_us_html": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+        "autocomplete_title": "ಸಲಹೆಗಳು",
+        "autocomplete_single_item": "1 ಐಟಂ ಲಭ್ಯವಿದೆ",
+        "autocomplete_multi_item": "{{number}} ಐಟಂಗಳು ಲಭ್ಯವಿದೆ",
+        "autocomplete_close": "ಸಲಹೆಗಳನ್ನು ಮುಚ್ಚಿ",
+        "forwarding_indicator": {
+          "new_window": "ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.",
+          "external": "ಬಾಹ್ಯ ವೆಬ್‌ಸೈಟ್ ತೆರೆಯುತ್ತದೆ.",
+          "external_and_new_window": "ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ಬಾಹ್ಯ ವೆಬ್‌ಸೈಟ್ ತೆರೆಯುತ್ತದೆ."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - ಚೆಕ್‌ಔಟ್"
+        },
+        "tooltip_accessibility_label": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿ",
+        "errors": {
+          "session_identifier_not_unique_error": "ನಿಮ್ಮ ಆರ್ಡರ್‌ನಲ್ಲಿ ಏನೋ ತಪ್ಪಾಗಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಲು ಪ್ರಯತ್ನಿಸಿ.",
+          "line_item_limit_reached": "ಸಾಲಿನ ಐಟಂಗಳ ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯನ್ನು ತಲುಪಲಾಗಿದೆ."
+        },
+        "full_price": "ಪೂರ್ಣ ಬೆಲೆ:"
       }
+    },
+    "sentence": {
+      "two_words_connector": " ಮತ್ತು",
+      "last_word_connector": ", ಮತ್ತು"
     }
   },
   "customer_accounts": {
@@ -819,7 +882,24 @@
         },
         "payment_method_selector_placeholder": "ಬದಲಿ ಪಾವತಿ ವಿಧಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಐಚ್ಛಿಕ)",
         "payment_method_selector_no_alternative_payment": "ಬದಲಿ ವಿಧಾನವಿಲ್ಲ",
-        "replace_method_with_new_method_description": "ನಿಮ್ಮ {{currentPaymentMethodName}} ಅಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ {{newPaymentMethodName}} ನೊಂದಿಗೆ ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ."
+        "replace_method_with_new_method_description": "ನಿಮ್ಮ {{currentPaymentMethodName}} ಅಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ {{newPaymentMethodName}} ನೊಂದಿಗೆ ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ.",
+        "error_when_deleting": "ನಾವು ಕ್ಷಮೆಯಾಚಿಸುತ್ತೇವೆ ಆದರೆ ಏನೋ ತಪ್ಪಾಗಿದೆ ಮತ್ತು ಈ ಪಾವತಿ ವಿಧಾನವನ್ನು ಅಳಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+        "delete_and_replace_button": "ಅಳಿಸಿ ಮತ್ತು ಬದಲಾಯಿಸಿ",
+        "delete_and_replace_button_accessibility_label": "{{currentPaymentMethodName}} ಅನ್ನು ಅಳಿಸಿ ಮತ್ತು {{newPaymentMethodName}} ನೊಂದಿಗೆ ಬದಲಾಯಿಸಿ.",
+        "deleted_successfully": "ಪಾವತಿ ವಿಧಾನವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ.",
+        "loading_available_payment_methods_accessibility_label": "ಲಭ್ಯವಿರುವ ಪಾವತಿ ವಿಧಾನಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+      },
+      "add_payment_method": {
+        "title": "ಪಾವತಿ ವಿಧಾನವನ್ನು ಸೇರಿಸಿ",
+        "payment_method_added_confirmation": "ಪಾವತಿ ವಿಧಾನವನ್ನು ಸೇರಿಸಲಾಗಿದೆ",
+        "billing_address": {
+          "title": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸ",
+          "add_billing_address_button": "ಹೊಸದನ್ನು ಸೇರಿಸಿ",
+          "add_billing_address_button_accessibility_label": "ಹೊಸ ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+          "choose_billing_address_from_list_button": "ಪಟ್ಟಿಯಿಂದ ಆರಿಸಿ",
+          "choose_billing_address_from_list_button_accessibility_label": "ಪಟ್ಟಿಯಿಂದ ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+          "missing_billing_address_error_message": "ದಯವಿಟ್ಟು ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ"
+        }
       }
     },
     "orders": {
@@ -1238,6 +1318,34 @@
         "save": "ಉಳಿಸಿ",
         "title": "PO ಸಂಖ್ಯೆ # {{poNumber}}"
       }
+    },
+    "payment_method_brands": {
+      "visa": "ವೀಸಾ",
+      "mastercard": "ಮಾಸ್ಟರ್ ಕಾರ್ಡ್",
+      "americanexpress": "ಅಮೇರಿಕನ್ ಎಕ್ಸ್ಪ್ರೆಸ್",
+      "discover": "ಅನ್ವೇಷಿಸಿ",
+      "dinersclub": "ಡೈನರ್ಸ್ ಕ್ಲಬ್",
+      "jcb": "ಜೆಸಿಬಿ",
+      "elo": "ಎಲೋ",
+      "visaelectron": "ವೀಸಾ ಎಲೆಕ್ಟ್ರಾನ್",
+      "maestro": "ಮೇಸ್ಟ್ರು",
+      "forbrugsforeningen": "ಫೋರ್ಬ್ರಗ್ಸ್ಫೊರೆನಿಂಗನ್",
+      "dankort": "ಡಾಂಕೋರ್ಟ್",
+      "hipercard": "ಹೈಪರ್ಕಾರ್ಡ್",
+      "unionpay": "ಯೂನಿಯನ್ ಪೇ",
+      "laser": "ಲೇಸರ್",
+      "shoppay": "ಶಾಪ್ ಪೇ",
+      "applepay": "ಆಪಲ್ ಪೇ",
+      "paypal": "ಪೇಪಾಲ್"
+    },
+    "shop_policies": {
+      "legal_notice": "ಕಾನೂನು ಸೂಚನೆ",
+      "privacy_policy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+      "refund_policy": "ಮರುಪಾವತಿ ನೀತಿ",
+      "shipping_policy": "ಶಿಪ್ಪಿಂಗ್ ನೀತಿ",
+      "subscription_policy": "ಚಂದಾದಾರಿಕೆ ನೀತಿ",
+      "terms_of_sale": "ಮಾರಾಟದ ನಿಯಮಗಳು",
+      "terms_of_service": "ಸೇವಾ ನಿಯಮಗಳು"
     }
   },
   "customer": {
@@ -1427,5 +1535,101 @@
     "language_label": "ಭಾಷೆ",
     "update_language": "ಭಾಷೆಯನ್ನು ನವೀಕರಿಸಿ",
     "update_country": "ದೇಶ\/ಪ್ರದೇಶವನ್ನು ನವೀಕರಿಸಿ"
+  },
+  "sections": {
+    "header": {
+      "announcement": "ಘೋಷಣೆ",
+      "menu": "ಮೆನು",
+      "cart_count": {
+        "one": "{{ count }} ಐಟಂ",
+        "other": "{{ count }} ಐಟಂಗಳು"
+      }
+    },
+    "cart": {
+      "title": "ನಿಮ್ಮ ಕಾರ್ಟ್",
+      "caption": "ಕಾರ್ಟ್ ವಸ್ತುಗಳು",
+      "remove_title": "{{ title }} ತೆಗೆದುಹಾಕಿ",
+      "subtotal": "ಉಪಮೊತ್ತ",
+      "new_subtotal": "ಹೊಸ ಉಪಮೊತ್ತ",
+      "note": "ವಿಶೇಷ ಸೂಚನೆಗಳನ್ನು ಆದೇಶಿಸಿ",
+      "checkout": "ಪರಿಶೀಲಿಸಿ",
+      "empty": "ನಿಮ್ಮ ಕಾರ್ಟ್ ಖಾಲಿಯಾಗಿದೆ",
+      "cart_error": "ನಿಮ್ಮ ಕಾರ್ಟ್ ಅನ್ನು ನವೀಕರಿಸುವಾಗ ದೋಷ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.",
+      "cart_quantity_error_html": "ನಿಮ್ಮ ಕಾರ್ಟ್‌ಗೆ ಈ ಐಟಂನ {{ quantity }} ಮಾತ್ರ ನೀವು ಸೇರಿಸಬಹುದು.",
+      "taxes_and_shipping_policy_at_checkout_html": "ಚೆಕ್ಔಟ್ನಲ್ಲಿ ತೆರಿಗೆಗಳು ಮತ್ತು <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">ಶಿಪ್ಪಿಂಗ್ ಅನ್ನು<\/a> ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ",
+      "taxes_included_but_shipping_at_checkout": "ತೆರಿಗೆಯನ್ನು ಒಳಗೊಂಡಿತ್ತು ಮತ್ತು ಶಿಪ್ಪಿಂಗ್ ಅನ್ನು ಚೆಕ್‌ಔಟ್‌ನಲ್ಲಿ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ",
+      "taxes_included_and_shipping_policy_html": "ತೆರಿಗೆ ಒಳಗೊಂಡಿದೆ. ಚೆಕ್ಔಟ್ನಲ್ಲಿ <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">ಶಿಪ್ಪಿಂಗ್ ಅನ್ನು<\/a> ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ.",
+      "taxes_and_shipping_at_checkout": "ಚೆಕ್ಔಟ್ನಲ್ಲಿ ತೆರಿಗೆಗಳು ಮತ್ತು ಶಿಪ್ಪಿಂಗ್ ಅನ್ನು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ",
+      "headings": {
+        "product": "ಉತ್ಪನ್ನ",
+        "price": "ಬೆಲೆ",
+        "total": "ಒಟ್ಟು",
+        "quantity": "ಪ್ರಮಾಣ",
+        "image": "ಉತ್ಪನ್ನ ಚಿತ್ರ"
+      },
+      "update": "ನವೀಕರಿಸಿ",
+      "login": {
+        "title": "ಖಾತೆ ಹೊಂದಿರುವಿರಾ?",
+        "paragraph_html": "ವೇಗವಾಗಿ ಪರಿಶೀಲಿಸಲು <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" class=\"link underlined-link\">ಲಾಗ್ ಇನ್ ಮಾಡಿ<\/a> ."
+      }
+    },
+    "footer": {
+      "payment": "ಪಾವತಿ ವಿಧಾನಗಳು"
+    },
+    "featured_blog": {
+      "view_all": "ಎಲ್ಲಾ ವೀಕ್ಷಿಸಿ",
+      "onboarding_title": "ಬ್ಲಾಗ್ ಪೋಸ್ಟ್",
+      "onboarding_content": "ನಿಮ್ಮ ಗ್ರಾಹಕರಿಗೆ ನಿಮ್ಮ ಬ್ಲಾಗ್ ಪೋಸ್ಟ್‌ನ ಸಾರಾಂಶವನ್ನು ನೀಡಿ"
+    },
+    "featured_collection": {
+      "view_all": "ಎಲ್ಲಾ ವೀಕ್ಷಿಸಿ",
+      "view_all_label": "{{ collection_name }} ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಎಲ್ಲಾ ಉತ್ಪನ್ನಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+    },
+    "collection_list": {
+      "view_all": "ಎಲ್ಲಾ ವೀಕ್ಷಿಸಿ"
+    },
+    "collection_template": {
+      "empty": "ಯಾವುದೇ ಉತ್ಪನ್ನಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+      "title": "ಸಂಗ್ರಹ",
+      "use_fewer_filters_html": "ಕಡಿಮೆ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಬಳಸಿ ಅಥವಾ <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">ಎಲ್ಲವನ್ನೂ ತೆಗೆದುಹಾಕಿ<\/a>"
+    },
+    "video": {
+      "load_video": "ವೀಡಿಯೊವನ್ನು ಲೋಡ್ ಮಾಡಿ: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "ಲೋಡ್ ಸ್ಲೈಡ್",
+      "previous_slideshow": "ಹಿಂದಿನ ಸ್ಲೈಡ್",
+      "next_slideshow": "ಮುಂದಿನ ಸ್ಲೈಡ್",
+      "pause_slideshow": "ಸ್ಲೈಡ್‌ಶೋ ವಿರಾಮಗೊಳಿಸಿ",
+      "play_slideshow": "ಸ್ಲೈಡ್‌ಶೋ ಪ್ಲೇ ಮಾಡಿ",
+      "carousel": "ಏರಿಳಿಕೆ",
+      "slide": "ಸ್ಲೈಡ್"
+    },
+    "page": {
+      "title": "ಪುಟ ಶೀರ್ಷಿಕೆ"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "ಪಾಸ್ವರ್ಡ್ ಬಳಸಿ ಅಂಗಡಿಯನ್ನು ನಮೂದಿಸಿ:",
+      "login_password_button": "ಪಾಸ್ವರ್ಡ್ ಬಳಸಿ ನಮೂದಿಸಿ",
+      "login_form_password_label": "ಗುಪ್ತಪದ",
+      "login_form_password_placeholder": "ನಿಮ್ಮ ಗುಪ್ತಪದ",
+      "login_form_error": "ತಪ್ಪು ಪಾಸ್ವರ್ಡ್!",
+      "login_form_submit": "ನಮೂದಿಸಿ",
+      "admin_link_html": "ನೀವು ಅಂಗಡಿಯ ಮಾಲೀಕರೇ? <a href=\"\/admin\" class=\"link underlined-link\">ಇಲ್ಲಿ ಲಾಗ್ ಇನ್ ಮಾಡಿ<\/a>",
+      "powered_by_shopify_html": "ಈ ಅಂಗಡಿಯನ್ನು {{ shopify }} ನಿಂದ ನಡೆಸಲಾಗುವುದು"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "ಫೇಸ್ ಬುಕ್ ನಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ",
+        "share_on_twitter": "Twitter ನಲ್ಲಿ ಟ್ವೀಟ್ ಮಾಡಿ",
+        "share_on_pinterest": "Pinterest ನಲ್ಲಿ ಪಿನ್ ಮಾಡಿ"
+      },
+      "links": {
+        "facebook": "ಫೇಸ್ಬುಕ್",
+        "snapchat": "ಸ್ನ್ಯಾಪ್‌ಚಾಟ್"
+      }
+    }
   }
 }
