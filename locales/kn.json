@@ -814,6 +814,158 @@
         "payment_method_selector_no_alternative_payment": "ಬದಲಿ ವಿಧಾನವಿಲ್ಲ",
         "replace_method_with_new_method_description": "ನಿಮ್ಮ {{currentPaymentMethodName}} ಅಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ {{newPaymentMethodName}} ನೊಂದಿಗೆ ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ."
       }
+    },
+    "orders": {
+      "order_list": {
+        "carousel": {
+          "next": "ಮುಂದೆ"
+        },
+        "items": {
+          "one": "{{count}} ಐಟಂ",
+          "other": "{{count}} ಐಟಂಗಳು"
+        },
+        "list_view": "ಪಟ್ಟಿ ವೀಕ್ಷಣೆಯನ್ನು ತೋರಿಸಿ",
+        "no_filtered_results_description": "ನಿಮ್ಮ ಆರ್ಡರ್‌ಗಳನ್ನು ನೋಡಲು ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಅಥವಾ ಹೊಂದಿಸಿ",
+        "no_filtered_results_title": "ಫಿಲ್ಟರ್ ಮಾಡಿದ ಫಲಿತಾಂಶಗಳಿಲ್ಲ",
+        "order_link": "ಆದೇಶವನ್ನು ವೀಕ್ಷಿಸಿ {{name}}",
+        "order_number": "ಆರ್ಡರ್ {{name}}",
+        "orders_title": "ದೃಢಪಡಿಸಿದೆ",
+        "pagination": {
+          "nav_accessibility_label": "ನ್ಯಾವಿಗೇಷನ್ ಬಟನ್‌ಗಳನ್ನು ಆದೇಶಿಸುತ್ತದೆ",
+          "next": "ಮುಂದೆ",
+          "next_accessibility_label": "ಮುಂದಿನ ಆದೇಶಗಳು",
+          "previous": "ಹಿಂದಿನ",
+          "previous_accessibility_label": "ಹಿಂದಿನ ಆದೇಶಗಳು",
+          "load_more": "ಹೆಚ್ಚು ಲೋಡ್ ಮಾಡಿ",
+          "load_more_accessibility_label": "ಹೆಚ್ಚಿನ ಆದೇಶಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "ವಿವರಗಳಿಗಾಗಿ ಆದೇಶವನ್ನು ವೀಕ್ಷಿಸಿ",
+            "estimated_delivery": "ಅಂದಾಜು ವಿತರಣೆ {{date}}",
+            "last_updated": "ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "ಅಂದಾಜು. ವಿತರಣೆ {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "ಪಾವತಿ ವಿಳಂಬವಾಗಿದೆ",
+            "due": "ಪಾವತಿ ಬಾಕಿ {{date}}",
+            "due_today": "ಇಂದು ಪಾವತಿ ಬಾಕಿಯಿದೆ",
+            "due_without_date": "ಪಾವತಿ ಬಾಕಿ",
+            "due_on_fulfillment": "ಪೂರೈಸಿದ ನಂತರ ಪಾವತಿ",
+            "pay_to_confirm": "ದೃಢೀಕರಿಸಲು ಪಾವತಿಸಿ",
+            "payment_not_due": "ಪಾವತಿ ಇನ್ನೂ ಬಾಕಿ ಉಳಿದಿಲ್ಲ"
+          },
+          "table_view": {
+            "overdue": "ಅವಧಿ ಮೀರಿದೆ",
+            "due": "ಬಾಕಿ {{date}}",
+            "due_today": "ಈವತ್ತು ಕೊಡಬೇಕಿದೆ",
+            "paid": "ಪಾವತಿಸಲಾಗಿದೆ",
+            "due_without_date": "ಕಾರಣ",
+            "due_on_fulfillment": "ಈಡೇರಿಕೆಗೆ ಕಾರಣ",
+            "pay_to_confirm": "ದೃಢೀಕರಿಸಲು ಪಾವತಿಸಿ",
+            "payment_not_due": "ಇನ್ನೂ ಬಾಕಿ ಇಲ್ಲ"
+          }
+        },
+        "sort_by": "ವಿಂಗಡಿಸಿ: {{option}}",
+        "sort_hide_options_accessibility_label": "ದೃಢೀಕೃತ ಆದೇಶಗಳಿಗಾಗಿ ವಿಂಗಡಣೆಯ ಆಯ್ಕೆಗಳನ್ನು ಮರೆಮಾಡಿ.",
+        "sort_show_options_accessibility_label": "ದೃಢೀಕೃತ ಆದೇಶಗಳಿಗಾಗಿ ವಿಂಗಡಣೆಯ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸಿ.",
+        "sort_currently_sorted_by_accessibility_label": "ಪ್ರಸ್ತುತವಾಗಿ ವಿಂಗಡಿಸಲಾಗಿದೆ: {{option}}",
+        "sort_title": "ವಿಂಗಡಿಸಿ",
+        "sort": {
+          "date": {
+            "newest": "ಹೊಸದರಿಂದ ಹಳೆಯದು",
+            "oldest": "ಹಳೆಯದರಿಂದ ಹೊಸತು"
+          },
+          "location": {
+            "ascending": "ಸ್ಥಳ (AZ)",
+            "descending": "ಸ್ಥಳ (ZA)"
+          },
+          "order_number": {
+            "ascending": "ಆರ್ಡರ್ ಸಂಖ್ಯೆ (ಕಡಿಮೆಯಿಂದ ಹೆಚ್ಚು)",
+            "descending": "ಆರ್ಡರ್ ಸಂಖ್ಯೆ (ಹೆಚ್ಚು ಕಡಿಮೆ)"
+          },
+          "order_total": {
+            "ascending": "ಒಟ್ಟು ಆರ್ಡರ್ (ಕಡಿಮೆಯಿಂದ ಹೆಚ್ಚು)",
+            "descending": "ಒಟ್ಟು ಆರ್ಡರ್ (ಹೆಚ್ಚು ಕಡಿಮೆ)"
+          }
+        },
+        "table_view": "ಟೇಬಲ್ ವೀಕ್ಷಣೆಯನ್ನು ತೋರಿಸಿ",
+        "show_order_actions_accessibility_label": "ಆರ್ಡರ್‌ಗಾಗಿ ಆರ್ಡರ್ ಕ್ರಿಯೆಗಳನ್ನು ತೋರಿಸಿ {{name}}"
+      },
+      "order_status": {
+        "attempted_delivery_label": "ವಿತರಿಸಲು ಪ್ರಯತ್ನಿಸಿದೆ",
+        "attempted_delivery_description": "ವಿತರಣಾ ಪ್ರಯತ್ನ ವಿಫಲವಾಗಿದೆ.",
+        "confirmed_description": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ನಾವು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ.",
+        "on_its_way_description": "ಈ ಸಾಗಣೆಯು ತನ್ನ ದಾರಿಯಲ್ಲಿದೆ.",
+        "out_for_delivery_description": "ಈ ಸಾಗಣೆಯು ವಿತರಣೆಗೆ ಹೊರಗಿದೆ.",
+        "preparing_for_shipping_label": "ಶಿಪ್ಪಿಂಗ್‌ಗೆ ತಯಾರಾಗುತ್ತಿದೆ",
+        "preparing_for_shipping_description": "ಈ ವಸ್ತುಗಳನ್ನು ಸಾಗಿಸಲು ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ.",
+        "ready_for_pickup_label": "ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ",
+        "ready_for_pickup_description": "ಈ ಐಟಂಗಳು ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿವೆ. ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ನೀವು ತೆಗೆದುಕೊಂಡಾಗ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಆರ್ಡರ್ ದೃಢೀಕರಣವನ್ನು ತನ್ನಿ.",
+        "ready_for_pickup_location": "ಸ್ಥಳದಲ್ಲಿ ಪಿಕಪ್ ಮಾಡಲು ನಿಮ್ಮ ಆರ್ಡರ್ ಸಿದ್ಧವಾಗಿದೆ",
+        "picked_up_label": "ತೆಗೆದುಕೊಂಡೆ",
+        "picked_up_description": "ಈ ವಸ್ತುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.",
+        "canceled_description": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು {{date}} ರಂದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ.",
+        "canceled_label": "ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
+        "canceled_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
+        "come_back": "ನಿಮ್ಮ ಶಿಪ್‌ಮೆಂಟ್ ಸ್ಥಿತಿಯ ನವೀಕರಣಗಳಿಗಾಗಿ ಈ ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ.",
+        "company_tracking_number": "{{company}} ಟ್ರ್ಯಾಕಿಂಗ್ ಸಂಖ್ಯೆ:",
+        "confirmed_label": "ದೃಢಪಡಿಸಿದೆ",
+        "confirmed_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಲಾಗಿದೆ",
+        "confirmed_description_pickup": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "confirmed_description_digital": "ನಿಮ್ಮ ಆರ್ಡರ್ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "confirmed_description_gift_card_text": "ನಿಮ್ಮ ಆರ್ಡರ್ ಸಿದ್ಧವಾದಾಗ ನೀವು ಪಠ್ಯವನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "delivered_description": "ಈ ಸಾಗಣೆಯನ್ನು ವಿತರಿಸಲಾಗಿದೆ.",
+        "delivered_label": "ವಿತರಿಸಲಾಗಿದೆ",
+        "delivered_title": "ನಿಮ್ಮ ಸಾಗಣೆಯನ್ನು ತಲುಪಿಸಲಾಗಿದೆ",
+        "delivered_description_digital": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪೂರ್ಣಗೊಂಡಿದೆ.",
+        "delivered_description_gift_card": {
+          "one": "ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಇಮೇಲ್ ಮೂಲಕ ಕಳುಹಿಸಲಾಗಿದೆ.",
+          "other": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಇಮೇಲ್ ಮೂಲಕ ಕಳುಹಿಸಲಾಗಿದೆ."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಪಠ್ಯದ ಮೂಲಕ ಕಳುಹಿಸಲಾಗಿದೆ.",
+          "other": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಪಠ್ಯದ ಮೂಲಕ ಕಳುಹಿಸಲಾಗಿದೆ."
+        },
+        "gift_card_label": {
+          "one": "ಉಡುಗೊರೆ ಪತ್ರ",
+          "other": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳು"
+        },
+        "gift_card_resend": {
+          "one": "ಈಮೇಲ್ ಮತ್ತೆ ಕಳುಹಿಸು",
+          "other": "ಇಮೇಲ್‌ಗಳನ್ನು ಮರುಕಳುಹಿಸಿ"
+        },
+        "gift_card_resend_text": {
+          "one": "ಪಠ್ಯವನ್ನು ಮರುಕಳುಹಿಸಿ",
+          "other": "ಪಠ್ಯಗಳನ್ನು ಮರುಕಳುಹಿಸಿ"
+        },
+        "gift_card_resend_description": {
+          "one": "ಅದನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಇಮೇಲ್ ಅನ್ನು ಮರುಕಳುಹಿಸಿ ಅಥವಾ",
+          "other": "ಅವುಗಳನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಇಮೇಲ್‌ಗಳನ್ನು ಮರುಕಳುಹಿಸಿ ಅಥವಾ"
+        },
+        "gift_card_resend_description_text": {
+          "one": "ಅದನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಪಠ್ಯವನ್ನು ಮರುಕಳುಹಿಸಿ ಅಥವಾ",
+          "other": "ಅವುಗಳನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಪಠ್ಯಗಳನ್ನು ಮರುಕಳುಹಿಸಿ ಅಥವಾ"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಪ್ರತ್ಯೇಕ ಇಮೇಲ್‌ನಲ್ಲಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
+          "other": "ಪ್ರತಿಯೊಂದು ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಪ್ರತ್ಯೇಕ ಇಮೇಲ್‌ನಲ್ಲಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಪ್ರತ್ಯೇಕ ಪಠ್ಯದಲ್ಲಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
+          "other": "ಪ್ರತಿಯೊಂದು ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಪ್ರತ್ಯೇಕ ಪಠ್ಯದಲ್ಲಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ."
+        },
+        "estimated_delivery": "ಅಂದಾಜು ವಿತರಣೆ {{date}}",
+        "in_review_description": "ನಮಗೆ ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಅಗತ್ಯವಿದ್ದರೆ ಅಥವಾ ನಿಮ್ಮ ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಿದಾಗ ನಾವು ನಿಮಗೆ ತಿಳಿಸುತ್ತೇವೆ.",
+        "in_review_label": "ಮರುಪರಿಶೀಲನೆಯಲ್ಲಿ",
+        "in_review_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ",
+        "last_updated": "ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ {{date}}",
+        "multiple_shipments_label": "ಬಹು ಸಾಗಣೆಗಳು"
+      }
     }
   },
   "customer": {
