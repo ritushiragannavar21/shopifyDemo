@@ -973,7 +973,25 @@
       "tracking_company": "ವಾಹಕ",
       "tracking_number": "ಟ್ರ್ಯಾಕಿಂಗ್ ಸಂಖ್ಯೆ",
       "subtotal": "ಉಪಮೊತ್ತ",
-      "total_duties": "ಕರ್ತವ್ಯಗಳು"
+      "total_duties": "ಕರ್ತವ್ಯಗಳು",
+      "title": "ಆರ್ಡರ್ {{ name }}",
+      "date_html": "{{ date }} ರಂದು ಇರಿಸಲಾಗಿದೆ",
+      "cancelled_html": "ಆರ್ಡರ್ ಅನ್ನು {{ date }} ರಂದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
+      "cancelled_reason": "ಕಾರಣ: {{ reason }}",
+      "billing_address": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸ",
+      "payment_status": "ಪಾವತಿ ಸ್ಥಿತಿ",
+      "shipping_address": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸ",
+      "fulfillment_status": "ಪೂರೈಸುವ ಸ್ಥಿತಿ",
+      "discount": "ರಿಯಾಯಿತಿ",
+      "shipping": "ಶಿಪ್ಪಿಂಗ್",
+      "tax": "ತೆರಿಗೆ",
+      "product": "ಉತ್ಪನ್ನ",
+      "price": "ಬೆಲೆ",
+      "quantity": "ಪ್ರಮಾಣ",
+      "total": "ಒಟ್ಟು",
+      "fulfilled_at_html": "{{ date }} ಪೂರೈಸಲಾಗಿದೆ",
+      "track_shipment": "ಸಾಗಣೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ",
+      "tracking_url": "ಟ್ರ್ಯಾಕಿಂಗ್ ಲಿಂಕ್"
     },
     "orders": {
       "title": "ಆರ್ಡರ್ ಇತಿಹಾಸ",
@@ -1004,6 +1022,58 @@
       "password": "ಗುಪ್ತಪದ",
       "password_confirm": "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
       "submit": "ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ"
+    },
+    "account": {
+      "title": "ಖಾತೆ",
+      "details": "ಖಾತೆ ವಿವರಗಳು",
+      "view_addresses": "ವಿಳಾಸಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+      "return": "ಖಾತೆ ವಿವರಗಳಿಗೆ ಹಿಂತಿರುಗಿ"
+    },
+    "account_fallback": "ಖಾತೆ",
+    "activate_account": {
+      "title": "ಖಾತೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+      "subtext": "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ರಚಿಸಿ.",
+      "password": "ಗುಪ್ತಪದ",
+      "password_confirm": "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+      "submit": "ಖಾತೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+      "cancel": "ಆಹ್ವಾನವನ್ನು ತಿರಸ್ಕರಿಸಿ"
+    },
+    "addresses": {
+      "title": "ವಿಳಾಸಗಳು",
+      "default": "ಡೀಫಾಲ್ಟ್",
+      "add_new": "ಹೊಸ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+      "edit_address": "ವಿಳಾಸವನ್ನು ಸಂಪಾದಿಸಿ",
+      "first_name": "ಮೊದಲ ಹೆಸರು",
+      "last_name": "ಕೊನೆಯ ಹೆಸರು",
+      "company": "ಕಂಪನಿ",
+      "address1": "ವಿಳಾಸ 1",
+      "address2": "ವಿಳಾಸ 2",
+      "city": "ನಗರ",
+      "country": "ದೇಶ\/ಪ್ರದೇಶ",
+      "province": "ಪ್ರಾಂತ್ಯ",
+      "zip": "ಅಂಚೆ\/ಪಿನ್ ಕೋಡ್",
+      "phone": "ದೂರವಾಣಿ",
+      "set_default": "ಡೀಫಾಲ್ಟ್ ವಿಳಾಸವಾಗಿ ಹೊಂದಿಸಿ",
+      "add": "ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+      "update": "ವಿಳಾಸವನ್ನು ನವೀಕರಿಸಿ",
+      "cancel": "ರದ್ದುಮಾಡಿ",
+      "edit": "ತಿದ್ದು",
+      "delete": "ಅಳಿಸಿ",
+      "delete_confirm": "ಈ ವಿಳಾಸವನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+    },
+    "log_in": "ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+    "log_out": "ಲಾಗ್ ಔಟ್",
+    "login_page": {
+      "cancel": "ರದ್ದುಮಾಡಿ",
+      "create_account": "ಖಾತೆ ತೆರೆ",
+      "email": "ಇಮೇಲ್",
+      "forgot_password": "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ಮರೆತಿರುವಿರಾ?",
+      "guest_continue": "ಮುಂದುವರಿಸಿ",
+      "guest_title": "ಅತಿಥಿಯಾಗಿ ಮುಂದುವರಿಯಿರಿ",
+      "password": "ಗುಪ್ತಪದ",
+      "title": "ಲಾಗಿನ್ ಮಾಡಿ",
+      "sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+      "submit": "ಸಲ್ಲಿಸು"
     }
   },
   "gift_cards": {
@@ -1020,5 +1090,70 @@
       "copy_code_success": "ಕೋಡ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಕಲಿಸಲಾಗಿದೆ",
       "print_gift_card": "ಮುದ್ರಿಸಿ"
     }
+  },
+  "products": {
+    "facets": {
+      "filters_selected": {
+        "other": "{{ count }} ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ)",
+      "show_more": "ಇನ್ನು ಹೆಚ್ಚು ತೋರಿಸು",
+      "show_less": "ಕಡಿಮೆ ತೋರಿಸು",
+      "max_price": "ಹೆಚ್ಚಿನ ಬೆಲೆ {{ price }}",
+      "product_count": {
+        "one": "{ {{ count }} {{ product_count }}",
+        "other": "{ {{ count }} {{ product_count }}"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} ಉತ್ಪನ್ನ",
+        "other": "{{ count }} ಉತ್ಪನ್ನಗಳು"
+      },
+      "reset": "ಮರುಹೊಂದಿಸಿ",
+      "sort_button": "ವಿಂಗಡಿಸಿ",
+      "sort_by_label": "ವಿಂಗಡಿಸು:",
+      "to": "ಗೆ",
+      "clear_filter": "ಫಿಲ್ಟರ್ ತೆಗೆದುಹಾಕಿ"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "“ {{ terms }} ” ಗಾಗಿ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ. ಕಾಗುಣಿತವನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಬೇರೆ ಪದ ಅಥವಾ ಪದಗುಚ್ಛವನ್ನು ಬಳಸಿ.",
+      "page": "ಪುಟ",
+      "products": "ಉತ್ಪನ್ನಗಳು",
+      "results_with_count": {
+        "one": "{{ count }} ಫಲಿತಾಂಶ",
+        "other": "{{ count }} ಫಲಿತಾಂಶಗಳು"
+      },
+      "results_with_count_and_term": {
+        "one": "\" {{ terms }} {{ count }} ಫಲಿತಾಂಶ ಕಂಡುಬಂದಿದೆ",
+        "other": "“ {{ terms }} ” ಗಾಗಿ {{ count }} ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿವೆ"
+      },
+      "title": "ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು",
+      "search_for": "“ {{ terms }} ” ಗಾಗಿ ಹುಡುಕಿ"
+    },
+    "cart": {
+      "cart": "ಕಾರ್ಟ್"
+    },
+    "contact": {
+      "form": {
+        "title": "ಸಂಪರ್ಕ ಫಾರ್ಮ್",
+        "name": "ಹೆಸರು",
+        "email": "ಇಮೇಲ್",
+        "phone": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+        "comment": "ಕಾಮೆಂಟ್ ಮಾಡಿ",
+        "send": "ಕಳುಹಿಸು",
+        "post_success": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು. ನಾವು ಆದಷ್ಟು ಬೇಗ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ.",
+        "error_heading": "ದಯವಿಟ್ಟು ಕೆಳಗಿನವುಗಳನ್ನು ಹೊಂದಿಸಿ:"
+      }
+    },
+    "404": {
+      "title": "ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ"
+    }
+  },
+  "localization": {
+    "country_label": "ದೇಶ\/ಪ್ರದೇಶ",
+    "language_label": "ಭಾಷೆ",
+    "update_language": "ಭಾಷೆಯನ್ನು ನವೀಕರಿಸಿ",
+    "update_country": "ದೇಶ\/ಪ್ರದೇಶವನ್ನು ನವೀಕರಿಸಿ"
   }
 }
