@@ -669,7 +669,8 @@
   "customer_accounts": {
     "errors": {
       "banner_title": {
-        "other": "{{count}} ದೋಷಗಳಿವೆ"
+        "other": "{{count}} ದೋಷಗಳಿವೆ",
+        "one": "{{count}} ದೋಷವಿದೆ"
       },
       "failed_address_creation": {
         "description": "ನಿಮ್ಮ ವಿಳಾಸವನ್ನು ರಚಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ."
@@ -704,7 +705,13 @@
       "profile_update_error": {
         "description": "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನವೀಕರಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ."
       },
-      "retry_action_label": "ಮರುಪ್ರಯತ್ನಿಸಿ"
+      "retry_action_label": "ಮರುಪ್ರಯತ್ನಿಸಿ",
+      "address_deletion_error": {
+        "description": "ಈ ವಿಳಾಸವನ್ನು ಅಳಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ."
+      },
+      "addresses_loading_issue": {
+        "description": "ಸಂಪರ್ಕ ದೋಷ. ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+      }
     },
     "payment_methods": {
       "title": "ಪಾವತಿ ವಿಧಾನಗಳು",
@@ -1088,7 +1095,148 @@
         "list_accessibility_label": "ಸ್ಥಳಗಳ ಪಟ್ಟಿ",
         "list_item_without_address_accessibility_label": "{{name}} : ವಿಳಾಸವಿಲ್ಲ",
         "list_loading_accessibility_message": "ಸ್ಥಳಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
-        "list_loading_address_accessibility_message": "{{locationName}} ಗಾಗಿ ವಿಳಾಸವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+        "list_loading_address_accessibility_message": "{{locationName}} ಗಾಗಿ ವಿಳಾಸವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+        "list_loading_finished_accessibility_message": "ಸ್ಥಳಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+        "loading_store_accessibility_message": "ಅಂಗಡಿಗೆ ಹೋಗುತ್ತಿದ್ದೇನೆ",
+        "no_location_title": "ವೈಯಕ್ತಿಕ ಆದೇಶಗಳು ಮಾತ್ರ",
+        "no_location_description": "ನೀವು ಇನ್ನು ಮುಂದೆ {{company}} ಗಾಗಿ ಆರ್ಡರ್ ಮಾಡಲು ಅನುಮತಿಯನ್ನು ಹೊಂದಿಲ್ಲ . ನೀವು ಇನ್ನೂ ವೈಯಕ್ತಿಕ ಆದೇಶಗಳನ್ನು ಇರಿಸಬಹುದು.",
+        "no_locations_found": "ಯಾವುದೇ ಸ್ಥಳಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+        "search": "ಸ್ಥಳವನ್ನು ಹುಡುಕಿ",
+        "search_location_title": "ಸ್ಥಳವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "selection_cancel_button": "ರದ್ದುಮಾಡಿ",
+        "selection_confirmation_button": "ಸ್ಥಳವನ್ನು ಆರಿಸಿ",
+        "title": "ನೀವು ಯಾವ ಸ್ಥಳಕ್ಕಾಗಿ ಖರೀದಿಸುತ್ತಿದ್ದೀರಿ?",
+        "clear_search": "ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+        "try_new_search": "ಹೊಸ ಹುಡುಕಾಟವನ್ನು ಪ್ರಯತ್ನಿಸಿ"
+      },
+      "addresses": {
+        "add_billing_address_button": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+        "add_billing_address_section_accessibility_label": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+        "add_shipping_address_button": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+        "add_shipping_address_section_accessibility_label": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+        "billing_address_card_title": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸ",
+        "cancel_adding_billing_address_accessibility_label": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸುವುದನ್ನು ರದ್ದುಮಾಡಿ",
+        "cancel_adding_shipping_address_accessibility_label": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸುವುದನ್ನು ರದ್ದುಮಾಡಿ",
+        "save_new_billing_address_accessibility_label": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಉಳಿಸಿ",
+        "save_new_shipping_address_accessibility_label": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಉಳಿಸಿ",
+        "shipping_address_card_title": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸ"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "ಎಲ್ಲವನ್ನು ಬಚ್ಚಿಡು",
+          "show_all": "ಎಲ್ಲ ತೋರಿಸು",
+          "hide_all_accessibility_label": "ವಿಮರ್ಶೆಯಲ್ಲಿ ಎಲ್ಲಾ ಆರ್ಡರ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ",
+          "show_all_accessibility_label": "ವಿಮರ್ಶೆಯಲ್ಲಿ ಎಲ್ಲಾ ಆರ್ಡರ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+          "show_all_orders_in_review": "ವಿಮರ್ಶೆಯಲ್ಲಿ ಎಲ್ಲಾ ಆರ್ಡರ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+          "show_less_orders_in_review": "ವಿಮರ್ಶೆಯಲ್ಲಿ ಕಡಿಮೆ ಆರ್ಡರ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+          "title": "ಬಾಕಿಯಿದೆ",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "ನೀವು ಯಾವುದೇ ಬಾಕಿ ಆರ್ಡರ್‌ಗಳನ್ನು ಹೊಂದಿಲ್ಲ",
+            "pending_orders": {
+              "one": "ನೀವು {{count}} ಬಾಕಿಯಿರುವ ಆದೇಶವನ್ನು ಹೊಂದಿದ್ದೀರಿ",
+              "other": "ನೀವು {{count}} ಬಾಕಿ ಆರ್ಡರ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ"
+            },
+            "more_than_pagination_length": "ನೀವು {{count}} ಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾಕಿ ಇರುವ ಆರ್ಡರ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "ವಿಮರ್ಶೆ ನ್ಯಾವಿಗೇಶನ್ ಬಟನ್‌ಗಳಲ್ಲಿ ಆರ್ಡರ್‌ಗಳು"
+          }
+        },
+        "order_list_column_headers_location": "ಸ್ಥಳ",
+        "order_list_column_headers_contact": "ಸಂಪರ್ಕಿಸಿ",
+        "removed_company_contact_tooltip": "ಕಂಪನಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "{ {{draftOrderName}} ಆದೇಶದಿಂದ {{date}} ದೃಢೀಕರಿಸಲಾಗಿದೆ",
+        "loading": "ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+        "loading_finished_accessibility_message": "ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "ನಿಮ್ಮ ಪಾವತಿಯು {{count}} ದಿನ ಬಾಕಿಯಿದೆ",
+              "other": "ನಿಮ್ಮ ಪಾವತಿಯು {{count}} ದಿನಗಳ ಬಾಕಿಯಿದೆ"
+            },
+            "banner_due": {
+              "one": "ನಿಮ್ಮ ಪಾವತಿಯು {{count}} ದಿನದಲ್ಲಿ ಬಾಕಿಯಿದೆ",
+              "other": "ನಿಮ್ಮ ಪಾವತಿಯು {{count}} ದಿನಗಳಲ್ಲಿ ಬಾಕಿಯಿದೆ"
+            },
+            "banner_due_today": "ನಿಮ್ಮ ಪಾವತಿಯು ಇಂದೇ ಬಾಕಿಯಿದೆ",
+            "title": "ಪಾವತಿ ಬಾಕಿ",
+            "title_with_date": "ಪಾವತಿ ಬಾಕಿ {{date}}",
+            "title_due_on_receipt": "ಪಾವತಿ ಇನ್ನೂ ಬಾಕಿ ಉಳಿದಿಲ್ಲ",
+            "title_due_on_fulfillment": "ಪೂರೈಸಿದ ನಂತರ ಪಾವತಿ",
+            "description_overdue": "ನಿಮ್ಮ ಪಾವತಿ ತಡವಾಗಿದೆ.",
+            "description_partially_paid": "ಈ ಆದೇಶವನ್ನು ಭಾಗಶಃ ಪಾವತಿಸಲಾಗಿದೆ. ನೀವು ಬಾಕಿ ಉಳಿದಿರುವಿರಿ.",
+            "description_authorized": "ನಿಮ್ಮ ಪಾವತಿ ವಿಧಾನಕ್ಕೆ ನಿಗದಿತ ದಿನಾಂಕದಂದು ಶುಲ್ಕ ವಿಧಿಸಲಾಗುತ್ತದೆ ಅಥವಾ ನೀವು ಈಗ ಪಾವತಿಸಬಹುದು.",
+            "description_due_on_receipt": "ಪಾವತಿ ಬಾಕಿ ಇರುವಾಗ ನೀವು ಇನ್‌ವಾಯ್ಸ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+            "description_due_on_fulfillment": "ಈ ಆರ್ಡರ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಐಟಂಗಳನ್ನು ಪೂರೈಸಿದ ನಂತರ ಪಾವತಿಯನ್ನು ಪಾವತಿಸಬೇಕಾಗುತ್ತದೆ."
+          },
+          "draft": {
+            "description": "ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಿದಾಗ ಪಾವತಿ ವಿವರಗಳನ್ನು ನಿರ್ಧರಿಸಲಾಗುತ್ತದೆ.",
+            "title": "ಪಾವತಿ ಇನ್ನೂ ಬಾಕಿ ಉಳಿದಿಲ್ಲ",
+            "in_review": {
+              "description": "ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಿದಾಗ ಪಾವತಿ ವಿವರಗಳನ್ನು ನಿರ್ಧರಿಸಲಾಗುತ್ತದೆ.",
+              "title": "ಪಾವತಿ ಇನ್ನೂ ಬಾಕಿ ಉಳಿದಿಲ್ಲ"
+            },
+            "submitted": {
+              "description": "ಈ ಆದೇಶವನ್ನು ಖಚಿತಪಡಿಸಲು ಪಾವತಿಯನ್ನು ಸಲ್ಲಿಸಿ.",
+              "title": "ದೃಢೀಕರಿಸಲು ಪಾವತಿಸಿ"
+            }
+          },
+          "paid": {
+            "title": "ಪಾವತಿಸಲಾಗಿದೆ",
+            "title_with_date": "ಪಾವತಿಸಲಾಗಿದೆ {{date}}",
+            "description": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಪಾವತಿಸಲಾಗಿದೆ."
+          },
+          "refund": {
+            "title": "ಮರುಪಾವತಿ ಮಾಡಲಾಗಿದೆ",
+            "title_with_date": "ಮರುಪಾವತಿ {{date}}",
+            "description_full_refund": "ಈ ಆದೇಶಕ್ಕಾಗಿ ನೀವು ಸಂಪೂರ್ಣ ಮರುಪಾವತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೀರಿ.",
+            "description_single_refund": "ಈ ಆರ್ಡರ್‌ಗಾಗಿ ನೀವು ಭಾಗಶಃ ಮರುಪಾವತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೀರಿ.",
+            "description_multiple_refunds": "ಈ ಆರ್ಡರ್‌ಗಾಗಿ ನೀವು ಭಾಗಶಃ ಮರುಪಾವತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೀರಿ."
+          },
+          "canceled": {
+            "title": "ಪಾವತಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
+            "description": "ನಿಮಗೆ ಶುಲ್ಕ ವಿಧಿಸಲಾಗುವುದಿಲ್ಲ."
+          },
+          "pay_now": "ಈಗ ಪಾವತಿಸಿ",
+          "pay_now_accessibility_label": "ಆರ್ಡರ್‌ಗಾಗಿ ಈಗ ಪಾವತಿಸಿ {{orderName}}",
+          "title": "ಪಾವತಿ ಸ್ಥಿತಿ"
+        },
+        "order_timeline": {
+          "expand_events_label": "ವಿವರಗಳನ್ನು ತೋರಿಸು",
+          "expand_events_accessibility_label": "ಡ್ರಾಫ್ಟ್ ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ತೋರಿಸಿ",
+          "hide_events_label": "ವಿವರಗಳನ್ನು ಮರೆಮಾಡಿ",
+          "hide_events_accessibility_label": "ಡ್ರಾಫ್ಟ್ ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ಮರೆಮಾಡಿ"
+        },
+        "subtitle": "ಸಲ್ಲಿಸಲಾಗಿದೆ {{date}}",
+        "title": "ಆರ್ಡರ್ {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "ಈ ಸ್ಥಳದಿಂದ ಭವಿಷ್ಯದ ಖರೀದಿಗಳಿಗೆ ಈ ಪಾವತಿ ವಿಧಾನವು ಇನ್ನು ಮುಂದೆ ಲಭ್ಯವಿರುವುದಿಲ್ಲ.",
+          "description_with_replacement": "ಈ ಪಾವತಿ ವಿಧಾನವನ್ನು ಅಳಿಸುವುದರಿಂದ ಈ ಸ್ಥಳದ ಪೂರ್ವಾಧಿಕೃತ ಪಾವತಿಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ. ಮುಂಬರುವ ಆರ್ಡರ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದನ್ನು ಮುಂದುವರಿಸಲು ಪರ್ಯಾಯ ಪಾವತಿ ವಿಧಾನದೊಂದಿಗೆ ಅದನ್ನು ಬದಲಾಯಿಸಿ."
+        },
+        "payment_details": {
+          "order_label": "ಆರ್ಡರ್ {{name}}",
+          "draft_label": "ಡ್ರಾಫ್ಟ್ ಆರ್ಡರ್ {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "PO ಸಂಖ್ಯೆಯನ್ನು ಸೇರಿಸಿ",
+        "add_modal_title": "PO ಸಂಖ್ಯೆಯನ್ನು ಸೇರಿಸಿ",
+        "cancel": "ರದ್ದುಮಾಡಿ",
+        "close_modal_accessibility_label": "PO ಸಂಖ್ಯೆ ಮಾದರಿಯನ್ನು ಮುಚ್ಚಿ",
+        "discard": "ತಿರಸ್ಕರಿಸು",
+        "discard_changes_modal_title": "ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸುತ್ತದೆ?",
+        "edit_accessibility_label": "PO ಸಂಖ್ಯೆಯನ್ನು ಸಂಪಾದಿಸಿ",
+        "edit_modal_title": "PO ಸಂಖ್ಯೆಯನ್ನು ಸಂಪಾದಿಸಿ",
+        "empty_state": "ಪಿಒ ಸಂಖ್ಯೆ ಇಲ್ಲ",
+        "modal_po_number_input_label": "PO ಸಂಖ್ಯೆ",
+        "modal_po_number_input_max_length_error": "PO ಸಂಖ್ಯೆಗಳು ಗರಿಷ್ಠ {{maxLength}} ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿರುತ್ತವೆ.",
+        "save": "ಉಳಿಸಿ",
+        "title": "PO ಸಂಖ್ಯೆ # {{poNumber}}"
       }
     }
   },
