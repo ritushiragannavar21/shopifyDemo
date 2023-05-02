@@ -1,0 +1,543 @@
+{
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "last_name_label": "ಕೊನೆಯ ಹೆಸರು",
+        "company_label": "ಕಂಪನಿ",
+        "optional_company_label": "ಕಂಪನಿ (ಐಚ್ಛಿಕ)",
+        "address1_label": "ವಿಳಾಸ",
+        "address2_label": "ಅಪಾರ್ಟ್ಮೆಂಟ್, ಸೂಟ್, ಇತ್ಯಾದಿ.",
+        "optional_address2_label": "ಅಪಾರ್ಟ್ಮೆಂಟ್, ಸೂಟ್, ಇತ್ಯಾದಿ (ಐಚ್ಛಿಕ)",
+        "city_label": "ನಗರ",
+        "country_label": "ದೇಶ\/ಪ್ರದೇಶ",
+        "country_code": "ದೇಶ\/ಪ್ರದೇಶ ಕೋಡ್",
+        "province_label": "ಪ್ರಾಂತ್ಯ",
+        "province_placeholder": "ಪ್ರಾಂತ್ಯ",
+        "county_label": "ಕೌಂಟಿ",
+        "county_placeholder": "ಕೌಂಟಿ",
+        "state_label": "ರಾಜ್ಯ",
+        "state_placeholder": "ರಾಜ್ಯ",
+        "region_label": "ಪ್ರದೇಶ",
+        "region_placeholder": "ಪ್ರದೇಶ",
+        "region_none": "ಯಾವುದನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ",
+        "prefecture_label": "ಪ್ರಿಫೆಕ್ಚರ್",
+        "prefecture_placeholder": "ಪ್ರಿಫೆಕ್ಚರ್",
+        "governorate_label": "ಗವರ್ನರೇಟ್",
+        "governorate_placeholder": "ಗವರ್ನರೇಟ್",
+        "emirate_label": "ಎಮಿರೇಟ್",
+        "emirate_placeholder": "ಎಮಿರೇಟ್",
+        "state_and_territory_label": "ರಾಜ್ಯ\/ಪ್ರದೇಶ",
+        "state_and_territory_placeholder": "ರಾಜ್ಯ\/ಪ್ರದೇಶ",
+        "phone_label": "ದೂರವಾಣಿ",
+        "optional_phone_label": "ಫೋನ್ (ಐಚ್ಛಿಕ)",
+        "phone_placeholder": "ದೂರವಾಣಿ",
+        "phone_tooltip": "ನಿಮ್ಮ ಆದೇಶದ ಕುರಿತು ನಾವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಬೇಕಾದರೆ",
+        "zip_code_label": "ZIP ಕೋಡ್",
+        "zip_code_placeholder": "ZIP ಕೋಡ್",
+        "postal_code_label": "ಅಂಚೆ ಕೋಡ್",
+        "postal_code_placeholder": "ಅಂಚೆ ಕೋಡ್",
+        "postcode_label": "ಅಂಚೆ ಕೋಡ್",
+        "postcode_placeholder": "ಅಂಚೆ ಕೋಡ್",
+        "pincode_label": "ಪಿನ್ ಕೋಡ್",
+        "pincode_placeholder": "ಪಿನ್ ಕೋಡ್",
+        "civic_number_warning": "ನೀವು ಮನೆ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಅದನ್ನು ಸೇರಿಸಿ"
+      },
+      "delivery_options": {
+        "free_total_label": "ಉಚಿತ",
+        "ship": "ಹಡಗು",
+        "shipping_address": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸ",
+        "pick_up": "ಎತ್ತಿಕೊಳ್ಳಿ",
+        "pick_up_locations": "ಪಿಕಪ್ ಸ್ಥಳಗಳು",
+        "pick_up_in_one_hour": "ಸಾಮಾನ್ಯವಾಗಿ 1 ಗಂಟೆಯಲ್ಲಿ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_two_hours": "ಸಾಮಾನ್ಯವಾಗಿ 2 ಗಂಟೆಗಳಲ್ಲಿ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_four_hours": "ಸಾಮಾನ್ಯವಾಗಿ 4 ಗಂಟೆಗಳಲ್ಲಿ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_twenty_four_hours": "ಸಾಮಾನ್ಯವಾಗಿ 24 ಗಂಟೆಗಳಲ್ಲಿ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_two_to_four_days": "ಸಾಮಾನ್ಯವಾಗಿ 2-4 ದಿನಗಳಲ್ಲಿ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_five_or_more_days": "ಸಾಮಾನ್ಯವಾಗಿ 5+ ದಿನಗಳಲ್ಲಿ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_zero_to_two_hours": "2 ಗಂಟೆಗಳಲ್ಲಿ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_in_two_to_four_hours": "4 ಗಂಟೆಗಳಲ್ಲಿ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_immediately": "ಈಗ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ",
+        "pick_up_next_day": "ಮರುದಿನ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ"
+      },
+      "customer_account": {
+        "not_user_label": "%{first_name} ಅಲ್ಲವೇ?",
+        "have_an_account_label": "ಈಗಾಗಲೇ ಖಾತೆ ಹೊಂದಿದ್ದೀರ?",
+        "sign_in_link_label": "ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+        "sign_out_link_label": "ಲಾಗ್ ಔಟ್",
+        "save_my_information_label": "ಮುಂದಿನ ಬಾರಿಗೆ ಈ ಮಾಹಿತಿಯನ್ನು ಉಳಿಸಿ"
+      },
+      "stock": {
+        "page_title": "ದಾಸ್ತಾನು ಸಮಸ್ಯೆಗಳು",
+        "title": "ಸ್ಟಾಕ್ ಮುಗಿದಿದೆ",
+        "items_unavailable_notice": "ಕೆಲವು ಐಟಂಗಳು ಇನ್ನು ಮುಂದೆ ಲಭ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಕಾರ್ಟ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ.",
+        "product_column_header": "ಉತ್ಪನ್ನಗಳು",
+        "quantity_column_header": "ಪ್ರಮಾಣ",
+        "price_column_header": "ಬೆಲೆ",
+        "status_column_header": "ಸ್ಥಿತಿ",
+        "removed_from_cart_notice": "ಕಾರ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+        "sold_out_label": "ಮಾರಾಟವಾಗಿದೆ",
+        "reduced_label": "ಕಡಿಮೆಯಾಗಿದೆ",
+        "reduced_with_quantity_label": "%{quantity_available} ಮಾತ್ರ ಉಳಿದಿದೆ",
+        "remove_from_cart_button_label": "ಕಾರ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಿ",
+        "continue_shopping_button_label": "ಮುಂದುವರಿಸಿ",
+        "go_back_to_cart_button_label": "ನನ್ನ ಕಾರ್ಟ್‌ಗೆ ಹಿಂತಿರುಗಿ"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "ಉತ್ಪನ್ನ ಲಭ್ಯವಿಲ್ಲ",
+          "other": "ಉತ್ಪನ್ನಗಳು ಲಭ್ಯವಿಲ್ಲ"
+        },
+        "products_not_available": {
+          "one": "ಈ ಉತ್ಪನ್ನವನ್ನು ನಿಮ್ಮ ಕಾರ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಇದು ನಿಮ್ಮ ದೇಶ\/ಪ್ರದೇಶದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.",
+          "other": "ಈ ಉತ್ಪನ್ನಗಳನ್ನು ನಿಮ್ಮ ಕಾರ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅವುಗಳು ನಿಮ್ಮ ದೇಶ\/ಪ್ರದೇಶದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "ಈ ಉತ್ಪನ್ನವು ನಿಮ್ಮ ದೇಶ\/ಪ್ರದೇಶದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.",
+          "other": "ಈ ಉತ್ಪನ್ನಗಳು ನಿಮ್ಮ ದೇಶ\/ಪ್ರದೇಶದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ."
+        },
+        "unavailable_label": "ಲಭ್ಯವಿಲ್ಲ"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "%{count} ಐಟಂಗೆ ಯಾವುದೇ ವಿತರಣೆ ಲಭ್ಯವಿಲ್ಲ",
+            "other": "%{count} ಐಟಂಗಳಿಗೆ ಯಾವುದೇ ವಿತರಣೆ ಲಭ್ಯವಿಲ್ಲ"
+          },
+          "message": {
+            "one": "ನಿಮ್ಮ ವಿಳಾಸಕ್ಕೆ ಯಾವುದೇ ವಿತರಣಾ ವಿಧಾನಗಳು ಲಭ್ಯವಿಲ್ಲದ ಕಾರಣ ಈ ಐಟಂ ಅನ್ನು ನಿಮ್ಮ ಕಾರ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.",
+            "other": "ನಿಮ್ಮ ವಿಳಾಸಕ್ಕೆ ಯಾವುದೇ ವಿತರಣಾ ವಿಧಾನಗಳು ಲಭ್ಯವಿಲ್ಲದ ಕಾರಣ ಈ ಐಟಂಗಳನ್ನು ನಿಮ್ಮ ಕಾರ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ."
+          },
+          "label": "ವಿತರಣೆ ಇಲ್ಲ"
+        }
+      },
+      "order_summary": {
+        "title": "ಆದೇಶದ ಸಾರಾಂಶ",
+        "order_name_label": "ಆರ್ಡರ್ %{name}",
+        "shopping_cart_label": "ಶಾಪಿಂಗ್ ಕಾರ್ಟ್",
+        "discount_title": "ರಿಯಾಯಿತಿ",
+        "discount_label": "ರಿಯಾಯಿತಿ ಸಂಕೇತ",
+        "discount_placeholder": "ರಿಯಾಯಿತಿ ಸಂಕೇತ",
+        "gift_card_title": "ಉಡುಗೊರೆ ಪತ್ರ",
+        "gift_card_label": "ಉಡುಗೊರೆ ಪತ್ರ",
+        "gift_card_placeholder": "ಉಡುಗೊರೆ ಪತ್ರ",
+        "gift_card_and_discount_title": "ಗಿಫ್ಟ್ ಕಾರ್ಡ್ ಅಥವಾ ರಿಯಾಯಿತಿ ಕೋಡ್",
+        "gift_card_and_discount_label": "ಗಿಫ್ಟ್ ಕಾರ್ಡ್ ಅಥವಾ ರಿಯಾಯಿತಿ ಕೋಡ್",
+        "gift_card_and_discount_placeholder": "ಗಿಫ್ಟ್ ಕಾರ್ಡ್ ಅಥವಾ ರಿಯಾಯಿತಿ ಕೋಡ್",
+        "remove_gift_card_label": "ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ತೆರವುಗೊಳಿಸಿ",
+        "remove_discount_label": "ರಿಯಾಯಿತಿಯನ್ನು ತೆಗೆದುಹಾಕಿ",
+        "free_shipping_discount_label": "ಉಚಿತ ಸಾಗಾಟ"
+      },
+      "shipping": {
+        "two_day_delivery": "2-ದಿನದ ವಿತರಣೆ %{time}",
+        "delivery": "ವಿತರಣಾ ಸಮಯ}",
+        "arrives_time": "%{time} ಗೆ ಆಗಮಿಸುತ್ತದೆ",
+        "arrives_time_range": "%{min_time}–%{max_time} ಗೆ ಆಗಮಿಸುತ್ತದೆ",
+        "estimated_time": "ಅಂದಾಜು ಸಮಯ}",
+        "estimated_time_range": "ಅಂದಾಜು %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆ (ಅಗತ್ಯವಿದೆ)",
+        "shipping_line_phone": "ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲು ನಿಮ್ಮ ಕೊರಿಯರ್ ಈ ಸಂಖ್ಯೆಯನ್ನು ಬಳಸಬಹುದು.",
+        "shipping_line_delivery_phone_label": "ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆ",
+        "shipping_line_delivery_phone": "ನಿಮ್ಮ ವಿತರಣೆಯ ನವೀಕರಣಗಳೊಂದಿಗೆ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು.",
+        "optional_shipping_line_delivery_instructions_label": "ವಿತರಣಾ ಸೂಚನೆಗಳು (ಐಚ್ಛಿಕ)",
+        "shipping_line_delivery_instructions": "ಡೋರ್ ಕೋಡ್‌ಗಳು ಅಥವಾ ಡ್ರಾಪ್-ಆಫ್ ಸೂಚನೆಗಳಂತಹ ಅಗತ್ಯ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ.",
+        "other_method": {
+          "zero": "ಯಾವುದೇ ಇತರ ವಿಧಾನಗಳು ಲಭ್ಯವಿಲ್ಲ",
+          "one": "%{count} ಇತರ ವಿಧಾನಗಳು ಇಲ್ಲಿ ಲಭ್ಯವಿದೆ",
+          "other": "%{count} ಇತರ ವಿಧಾನಗಳು ಪ್ರಾರಂಭವಾಗುತ್ತವೆ"
+        },
+        "shipping_rate_discounted_amount": "ಆಗಿತ್ತು: %{original_amount}. ಈಗ: %{amount}",
+        "local_delivery": "ಸ್ಥಳೀಯ ವಿತರಣೆ",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "%{count} ವಿತರಣೆಗಾಗಿ",
+            "other": "%{count} ವಿತರಣೆಗಳಿಗೆ"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ಪ್ರತಿ ದಿನ",
+              "other": "ಪ್ರತಿ %{count} ದಿನಗಳು"
+            },
+            "week": {
+              "one": "ಪ್ರತಿ ವಾರ",
+              "other": "ಪ್ರತಿ %{count} ವಾರಗಳು"
+            },
+            "month": {
+              "one": "ಪ್ರತಿ ತಿಂಗಳು",
+              "other": "ಪ್ರತಿ %{count} ತಿಂಗಳುಗಳು"
+            },
+            "year": {
+              "one": "ಪ್ರತಿ ವರ್ಷ",
+              "other": "ಪ್ರತಿ %{count} ವರ್ಷಗಳು"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "ಪ್ರತಿ ವಿತರಣೆಗೆ %{shipping_price}",
+          "prepaid_shipping_price_label": "ಪ್ರತಿ ವಿತರಣೆಗೆ %{shipping_price} x %{delivery_interval_count}",
+          "initial_order_discounted": "ಮೊದಲ ಶಿಪ್ಪಿಂಗ್ ವೆಚ್ಚ %{discounted_shipping_cost}, ನಂತರ %{frequency_description}",
+          "prepaid_initial_order_discounted": "ಮೊದಲ ಶಿಪ್ಪಿಂಗ್ ವೆಚ್ಚ %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "ಮೊದಲ ಶಿಪ್ಪಿಂಗ್ ವೆಚ್ಚ %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "ಮೊದಲ ಶಿಪ್ಪಿಂಗ್ ವೆಚ್ಚ %{discounted_shipping_price} %{prepaid_delivery_frequency}, ನಂತರ %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "ಮೊದಲ ಶಿಪ್ಪಿಂಗ್ ವೆಚ್ಚ %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), ನಂತರ %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "ಒಳಗೊಂಡಿತ್ತು",
+          "recurring_order_shipping_price": "%{recurring_order_shipping_price} ಅನುಸರಿಸಿ",
+          "first_order_shipping_price_included": "ಮೊದಲ ಆರ್ಡರ್ ಅನ್ನು ಸೇರಿಸಲಾಗಿದೆ, ನಂತರ %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (ಪ್ರತಿ ವಿತರಣೆಗೆ %{per_delivery_price}), ನಂತರ %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "ಮೊದಲ ಆರ್ಡರ್ ಉಚಿತ",
+            "other": "ಮೊದಲ %{count} ಆರ್ಡರ್‌ಗಳು ಉಚಿತ"
+          },
+          "free_for_first_n_order": {
+            "one": "ಮೊದಲ ಆದೇಶಕ್ಕಾಗಿ",
+            "other": "ಮೊದಲ %{count} ಆರ್ಡರ್‌ಗಳಿಗೆ"
+          }
+        },
+        "one_time_purchase_shipping": "ಒಂದು-ಬಾರಿ ಶಿಪ್ಪಿಂಗ್"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "ಅಮೆಜಾನ್ ಪೇ",
+        "amazon_payments_login_hint": "Amazon ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಲು ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ.",
+        "amazon_payments_logout": "Amazon Pay ನಿಂದ ಲಾಗ್ ಔಟ್ ಮಾಡಿ",
+        "amazon_payments_failed_mfa_challenge": "ಆಯ್ಕೆಮಾಡಿದ ಪಾವತಿ ವಿಧಾನವನ್ನು ಬಳಸಲಾಗಲಿಲ್ಲ. ಬೇರೆ ವಿಧಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಥವಾ ಕಾರ್ಡ್ ವಿತರಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "amazon_payments_abandoned_mfa_challenge": "ನಿಮ್ಮ ಪಾವತಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ಬೇರೆ ಪಾವತಿ ವಿಧಾನವನ್ನು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಥವಾ ಕಾರ್ಡ್ ವಿತರಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "amazon_payments_could_not_enqueue_authorize": "ನಿಮ್ಮ ಪಾವತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಬೇರೆ ಪಾವತಿ ವಿಧಾನವನ್ನು ಬಳಸಿ.",
+        "title": "ಪಾವತಿ",
+        "amount_left_to_pay_label": "ಪಾವತಿ ಬಾಕಿ:",
+        "discount_button_action_label": "ರಿಯಾಯಿತಿ ಕೋಡ್ ಅನ್ನು ಅನ್ವಯಿಸಿ",
+        "gift_card_code_label": "ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಕೋಡ್",
+        "apply_gift_card_button_label": "ಅನ್ವಯಿಸು",
+        "gift_card_balance_label": "ಬ್ಯಾಲೆನ್ಸ್:",
+        "supported_card_brands_more_label": "ಇನ್ನೂ ಸ್ವಲ್ಪ…",
+        "detected_card_brand": "ಪತ್ತೆಯಾದ ಕಾರ್ಡ್ ಬ್ರ್ಯಾಂಡ್: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಅನ್ನು ಉಳಿಸಿ",
+        "credit_card_vaulting_sign_in_banner_info": "ಭವಿಷ್ಯದ ಖರೀದಿಗಳಿಗಾಗಿ ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಅನ್ನು ಉಳಿಸಲು ಲಾಗ್ ಇನ್ ಮಾಡಿ ಅಥವಾ ಖಾತೆಯನ್ನು ರಚಿಸಿ.",
+        "credit_card_vaulting_sign_in_banner_button_label": "ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+        "ftd_vault_credit_card_label": "ವೇಗವಾದ ಚೆಕ್‌ಔಟ್‌ಗಾಗಿ ಈ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಅನ್ನು ನನ್ನ ಖಾತೆಗೆ ಉಳಿಸಿ",
+        "card_number_label": "ಕಾರ್ಡ್ ಸಂಖ್ಯೆ",
+        "card_number_placeholder": "ಕಾರ್ಡ್ ಸಂಖ್ಯೆ",
+        "card_pay_with": "ಇದರೊಂದಿಗೆ ಪಾವತಿಸಿ:",
+        "card_security_notice": "ಎಲ್ಲಾ ವಹಿವಾಟುಗಳು ಸುರಕ್ಷಿತ ಮತ್ತು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿವೆ.",
+        "card_security_vault_notice": "ಭವಿಷ್ಯದ ಪಾವತಿಗಳಿಗಾಗಿ ನಮಗೆ ನಿಮ್ಮ ವಿವರಗಳ ಅಗತ್ಯವಿದೆ. ಎಲ್ಲಾ ವಹಿವಾಟುಗಳು ಸುರಕ್ಷಿತ ಮತ್ತು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿವೆ.",
+        "card_information_notice": "ಎಲ್ಲಾ ವಹಿವಾಟುಗಳು ಸುರಕ್ಷಿತ ಮತ್ತು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿವೆ. ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಮಾಹಿತಿಯನ್ನು ಎಂದಿಗೂ ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ.",
+        "name_on_card_label": "ಕಾರ್ಡ್‌ನಲ್ಲಿ ಹೆಸರು",
+        "name_on_card_placeholder": "ಕಾರ್ಡ್‌ನಲ್ಲಿ ಹೆಸರು",
+        "card_expired": "ಅವಧಿ ಮೀರಿದೆ",
+        "card_expiry_label": "ಮುಕ್ತಾಯ ದಿನಾಂಕ (MM \/ YY)",
+        "card_expiry_placeholder": "ಮುಕ್ತಾಯ ದಿನಾಂಕ (MM \/ YY)",
+        "credit_card_start_month": "ಆರಂಭದ ತಿಂಗಳು",
+        "credit_card_start_year": "ಪ್ರಾರಂಭ ವರ್ಷ",
+        "delete_customer_mandate_modal_title": "ಈ ಪಾವತಿ ಕಾರ್ಡ್ ತೆಗೆದುಹಾಕುವುದೇ?",
+        "delete_customer_mandate_modal_body": "ನೀವು ಈ ಕಾರ್ಡ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿದರೆ, ಪಾವತಿಗಳಿಗಾಗಿ ಅದನ್ನು ಬಳಸುವ ಮೊದಲು ನೀವು ಅದನ್ನು ಮತ್ತೆ ಸೇರಿಸಬೇಕಾಗುತ್ತದೆ.",
+        "delete_customer_mandate_modal_confirm": "ಕಾರ್ಡ್ ತೆಗೆದುಹಾಕಿ",
+        "delete_customer_mandate_modal_cancel": "ರದ್ದುಮಾಡಿ",
+        "card_verification_value_label": "ಭದ್ರತಾ ಕೋಡ್",
+        "card_verification_value_placeholder": "ಭದ್ರತಾ ಕೋಡ್",
+        "card_verification_confirm": "ಪರಿಶೀಲನೆ ಉದ್ದೇಶಗಳಿಗಾಗಿ, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಾರ್ಡ್‌ನ ಭದ್ರತಾ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ.",
+        "card_expiry_date_explanation": "ರೂಪದಲ್ಲಿ ಕಾರ್ಡ್ ಮುಕ್ತಾಯ ದಿನಾಂಕ: ತಿಂಗಳು, ತಿಂಗಳು, ವರ್ಷ, ವರ್ಷ",
+        "card_expiration_month_label": "ಮುಕ್ತಾಯ ತಿಂಗಳು",
+        "card_expiration_year_label": "ಮುಕ್ತಾಯ ವರ್ಷ",
+        "card_verification_value_explanation": "3-ಅಂಕಿಯ ಭದ್ರತಾ ಕೋಡ್ ಸಾಮಾನ್ಯವಾಗಿ ನಿಮ್ಮ ಕಾರ್ಡ್‌ನ ಹಿಂಭಾಗದಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ. ಅಮೇರಿಕನ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್ ಕಾರ್ಡ್‌ಗಳು ಮುಂಭಾಗದಲ್ಲಿ 4-ಅಂಕಿಯ ಕೋಡ್ ಅನ್ನು ಹೊಂದಿವೆ.",
+        "card_verification_value_explanation_amex": "ನಿಮ್ಮ ಕಾರ್ಡ್‌ನ ಮುಂಭಾಗದಲ್ಲಿ 4-ಅಂಕಿಯ ಭದ್ರತಾ ಕೋಡ್",
+        "card_verification_value_explanation_other": "ನಿಮ್ಮ ಕಾರ್ಡ್‌ನ ಹಿಂಭಾಗದಲ್ಲಿ 3-ಅಂಕಿಯ ಭದ್ರತಾ ಕೋಡ್",
+        "card_start_label": "ಸಂಚಿಕೆ ದಿನಾಂಕ (MM \/ YY)",
+        "card_start_placeholder": "ಸಂಚಿಕೆ ದಿನಾಂಕ (MM \/ YY)",
+        "card_issue_number_label": "ಸಂಚಿಕೆ ಸಂಖ್ಯೆ",
+        "card_issue_number_placeholder": "ಸಂಚಿಕೆ ಸಂಖ್ಯೆ",
+        "card_change_label": "ಬದಲಾವಣೆ",
+        "card_update_label": "ಕಾರ್ಡ್ ನವೀಕರಿಸಿ",
+        "ends_with_label": "%{last_digits} ನೊಂದಿಗೆ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ",
+        "masked_digits_label": "•••• %{ಕೊನೆಯ_ಅಂಕಿಗಳು}",
+        "payment_method_saved": "ಪಾವತಿ ವಿಧಾನವನ್ನು ಉಳಿಸಲಾಗಿದೆ",
+        "card_vaulted_company_location": "ಈ ಸ್ಥಳಕ್ಕಾಗಿ ಕಾರ್ಡ್ ಉಳಿಸಲಾಗಿದೆ",
+        "expiry_long": "(%{ತಿಂಗಳು}\/%{ವರ್ಷ} ಅವಧಿ ಮೀರುತ್ತದೆ)",
+        "expiry_short": "(ಅವಧಿ %{ತಿಂಗಳು}\/%{ವರ್ಷ})"
+      },
+      "post_purchase": {
+        "components": {
+          "submit": "ಸಲ್ಲಿಸು"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತಿದೆ...",
+        "redirecting_title": "ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತಿದೆ...",
+        "redirecting_notice": "ನಾವು ನಿಮ್ಮನ್ನು ಮರುನಿರ್ದೇಶಿಸುವವರೆಗೆ ಕಾಯಿರಿ.",
+        "complete_your_purchase_title": "ನಿಮ್ಮ ಖರೀದಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ",
+        "continue_to_payment_gateway_notice": "ನಿಮ್ಮ ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಸೇರಿಸಲು ಪಾವತಿಯನ್ನು ಮುಂದುವರಿಸಿ.",
+        "continue_to_payment_gateway_button_label": "ಪಾವತಿಯನ್ನು ಮುಂದುವರಿಸಿ",
+        "complete_your_purchase_title_error": "ನಿಮ್ಮ ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಸರಿಪಡಿಸಿ",
+        "continue_to_payment_gateway_notice_error": "ನಿಮ್ಮ ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ.",
+        "continue_to_payment_gateway_button_label_error": "ಪಾವತಿ ಮಾಹಿತಿಯನ್ನು ನವೀಕರಿಸಿ",
+        "page_title": "ಪ್ರಕ್ರಿಯೆ ಆದೇಶ",
+        "title": "ಪ್ರಕ್ರಿಯೆ ಆದೇಶ",
+        "your_order_has_been_received_title": "ನಿಮ್ಮ ಆದೇಶಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು",
+        "you_will_receive_confirmation": "ನಾವು ಇದೀಗ ಸಾಕಷ್ಟು ಆರ್ಡರ್‌ಗಳನ್ನು ಪಡೆಯುತ್ತಿದ್ದೇವೆ. ನೀವು ಶೀಘ್ರದಲ್ಲೇ ಇಮೇಲ್ ಅಥವಾ ಪಠ್ಯದ ಮೂಲಕ ದೃಢೀಕರಣವನ್ನು ಸ್ವೀಕರಿಸಬೇಕು. ಮುಂದಿನ ಗಂಟೆಯಲ್ಲಿ ನೀವು ಅದನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ನಮಗೆ ತಿಳಿಸಿ.",
+        "you_will_not_be_charged": "ನಿಮಗೆ ಇನ್ನೂ ಶುಲ್ಕ ವಿಧಿಸಲಾಗುವುದಿಲ್ಲ",
+        "wait": {
+          "short": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ.",
+          "medium": {
+            "one": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ. ಅಂದಾಜು ಕಾಯುವ ಸಮಯ %{count} ನಿಮಿಷ.",
+            "other": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ. ಅಂದಾಜು ಕಾಯುವ ಸಮಯ %{count} ನಿಮಿಷಗಳು."
+          },
+          "long": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿದ ತಕ್ಷಣ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ. ಪ್ರಸ್ತುತ ಹೆಚ್ಚಿನ ಪ್ರಮಾಣದ ಆರ್ಡರ್‌ಗಳಿವೆ.",
+          "no_auto_refresh_html": "ನಿಮ್ಮನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುನಿರ್ದೇಶಿಸಲಾಗದಿದ್ದರೆ, %{link}.",
+          "refresh_this_page": "ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+        }
+      },
+      "failed_payment": {
+        "page_title": "ಪಾವತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+        "title": "ಪಾವತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+        "payment_not_processed_title": "ನಿಮ್ಮ ಪಾವತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+        "payment_not_processed_text": "ನಿಮಗೆ ಶುಲ್ಕ ವಿಧಿಸಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಖರೀದಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ನಿಮ್ಮ ಕಾರ್ಟ್‌ಗೆ ಹಿಂತಿರುಗಿ.",
+        "return_to_cart_button_label": "ಕಾರ್ಟ್‌ಗೆ ಹಿಂತಿರುಗಿ"
+      },
+      "payment_gateway": {
+        "credit_card_label": "ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್",
+        "bank_deposit_label": "ಬ್ಯಾಂಕ್ ಠೇವಣಿ",
+        "cash_on_delivery_label": "ಕ್ಯಾಶ್ ಆನ್ ಡೆಲಿವರಿ (COD)",
+        "money_order_label": "ಹಣ ಆದೇಶ"
+      },
+      "thank_you": {
+        "title": "ನಿಮ್ಮ ಖರೀದಿಗಾಗಿ ಧನ್ಯವಾದಗಳು!",
+        "confirmation_email_sent_text": "ದೃಢೀಕರಣ ಇಮೇಲ್ ಅನ್ನು %{email} ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ",
+        "return_to_store_link_label": "ಕೊಳ್ಳುವಿಕೆಯನ್ನು ಮುಂದುವರೆಸಿರಿ",
+        "print_link_label": "ಪ್ರಿಂಟ್ ರಸೀದಿ",
+        "payment_information_title": "ಪಾವತಿ ಮಾಹಿತಿ",
+        "shipping_information_title": "ಶಿಪ್ಪಿಂಗ್ ಮಾಹಿತಿ",
+        "page_title": "ಧನ್ಯವಾದಗಳು %{display_name}!",
+        "page_title_no_name": "ಧನ್ಯವಾದ!",
+        "purchase_order_number_title": "PO ಸಂಖ್ಯೆ #%{purchase_order_number}",
+        "cancelled_page_title": "ಆರ್ಡರ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
+        "customer_information_title": "ಗ್ರಾಹಕರ ಮಾಹಿತಿ",
+        "contact_information_title": "ಸಂಪರ್ಕ ಮಾಹಿತಿ",
+        "billing_address_title": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸ",
+        "company_location_title": "ಸ್ಥಳ",
+        "shipping_address_title": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸ",
+        "shipping_address_map_title": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸದ ಪಿನ್ ಪಾಯಿಂಟ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸುವ Google ನಕ್ಷೆ: %{address}",
+        "payment_method_title": "ಪಾವತಿ ವಿಧಾನ",
+        "shipping_method_title": "ಸಾಗಣಿಕೆ ರೀತಿ",
+        "tracking_number": "ಟ್ರ್ಯಾಕಿಂಗ್ ಸಂಖ್ಯೆ:",
+        "company_tracking_number": "%{company} ಟ್ರ್ಯಾಕಿಂಗ್ ಸಂಖ್ಯೆ:",
+        "estimated_arrival": "ಅಂದಾಜು ವಿತರಣೆ ದಿನಾಂಕ:",
+        "estimated_delivery": "ಪ್ರಸ್ತುತ ವಿತರಣಾ ಅಂದಾಜು:",
+        "re-order": "ಅದೇ ಐಟಂಗಳನ್ನು ಮರು-ಆರ್ಡರ್ ಮಾಡಿ",
+        "confirmed": "ದೃಢಪಡಿಸಿದೆ",
+        "gift_card_confirmation_by_text": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಪಠ್ಯದ ಮೂಲಕ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮದನ್ನು ನೀವು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಅವುಗಳನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಲು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "gift_card_confirmation_by_email": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಇಮೇಲ್ ಮೂಲಕ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮದನ್ನು ನೀವು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಅವುಗಳನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಲು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "gift_card_title": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳು",
+        "resend_gift_cards": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಮರುಕಳುಹಿಸಿ",
+        "thank_you_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಲಾಗಿದೆ",
+        "thank_you_title_payment": "ನಿಮ್ಮ ಪಾವತಿಯನ್ನು ದೃಢೀಕರಿಸಲಾಗಿದೆ",
+        "thank_you_title_review": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಪರಿಶೀಲನೆಗಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ",
+        "thank_you_confirmed_order_with_email": "ನೀವು ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ದೃಢೀಕರಣ ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "thank_you_confirmed_order_with_phone": "ನೀವು ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ದೃಢೀಕರಣ ಪಠ್ಯವನ್ನು ಸ್ವೀಕರಿಸಬಹುದು.",
+        "thank_you_confirmed_order_with_email_and_phone": "ನೀವು ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ದೃಢೀಕರಣ ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "thank_you_confirmed_order_with_email_payment": "ನಿಮ್ಮ ಆರ್ಡರ್ %{date} ರಂದು ನೀವು ಪಾವತಿ ಮಾಡಿದ್ದೀರಿ.",
+        "thank_you_confirmed_order_with_phone_payment": "ನಿಮ್ಮ ಆರ್ಡರ್ %{date} ರಂದು ನೀವು ಪಾವತಿ ಮಾಡಿದ್ದೀರಿ.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "ನಿಮ್ಮ ಆರ್ಡರ್ %{date} ರಂದು ನೀವು ಪಾವತಿ ಮಾಡಿದ್ದೀರಿ.",
+        "thank_you_confirmed_order_with_email_pick_up": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "thank_you_confirmed_order_with_phone_pick_up": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಪಠ್ಯವನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "thank_you_confirmed_order_with_missing": "ಆದೇಶದ ದೃಢೀಕರಣವನ್ನು ಸ್ವೀಕರಿಸಲು ಇಮೇಲ್ ಅಥವಾ ಫೋನ್ ಮೂಲಕ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "thank_you_confirmed_order_with_draft": "ನಮಗೆ ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಅಗತ್ಯವಿದ್ದರೆ ಅಥವಾ ನಿಮ್ಮ ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಿದಾಗ ನಾವು ನಿಮಗೆ ತಿಳಿಸುತ್ತೇವೆ.",
+        "order_status_confirmed_order_with_email": "ನಿಮ್ಮ ಆರ್ಡರ್ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "order_status_confirmed_order_with_phone": "ನಿಮ್ಮ ಆರ್ಡರ್ ಸಿದ್ಧವಾದಾಗ ನೀವು ಪಠ್ಯವನ್ನು ಸ್ವೀಕರಿಸಬಹುದು.",
+        "order_status_confirmed_order_with_email_and_phone": "ನಿಮ್ಮ ಆರ್ಡರ್ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "order_status_confirmed_order_with_email_payment": "ನಿಮ್ಮ ಆರ್ಡರ್ %{date} ರಂದು ನೀವು ಪಾವತಿ ಮಾಡಿದ್ದೀರಿ.",
+        "order_status_confirmed_order_with_phone_payment": "ನಿಮ್ಮ ಆರ್ಡರ್ %{date} ರಂದು ನೀವು ಪಾವತಿ ಮಾಡಿದ್ದೀರಿ.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "ನಿಮ್ಮ ಆರ್ಡರ್ %{date} ರಂದು ನೀವು ಪಾವತಿ ಮಾಡಿದ್ದೀರಿ.",
+        "order_status_confirmed_order_with_email_pick_up": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "order_status_confirmed_order_with_phone_pick_up": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಪಠ್ಯವನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾದಾಗ ನೀವು ಇಮೇಲ್ ಮತ್ತು ಪಠ್ಯವನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "order_status_confirmed_order_local": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ಡೆಲಿವರಿ ಮಾಡಲು ನಾವು ಸಿದ್ಧಗೊಳಿಸುತ್ತಿದ್ದೇವೆ.",
+        "order_status_updates_with_email": "ನೀವು ಇಮೇಲ್ ಮೂಲಕ ಶಿಪ್ಪಿಂಗ್ ಮತ್ತು ಡೆಲಿವರಿ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯುತ್ತೀರಿ.",
+        "order_status_updates_with_phone": "ಪಠ್ಯದ ಮೂಲಕ ನೀವು ಶಿಪ್ಪಿಂಗ್ ಮತ್ತು ವಿತರಣಾ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಬಹುದು.",
+        "order_status_updates_with_email_and_phone": "ನೀವು ಇಮೇಲ್ ಮೂಲಕ ಶಿಪ್ಪಿಂಗ್ ಮತ್ತು ಡೆಲಿವರಿ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯುತ್ತೀರಿ.",
+        "order_status_updates_with_missing": "ನೀವು ಶಿಪ್ಪಿಂಗ್ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಹೇಗೆ ಪಡೆಯಲು ಬಯಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ಆರಿಸಿ.",
+        "order_status_confirmed_with_installments_payment_return": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಗಮನವನ್ನು ಮಾರಾಟದ ಸಹವರ್ತಿ ಕಡೆಗೆ ಹಿಂತಿರುಗಿ.",
+        "order_status_confirmed_with_installments_payment_confirm": "ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ ಆರ್ಡರ್ ಸಂಖ್ಯೆ ಮತ್ತು ನಿಮ್ಮ ಕಂತು ವೇಳಾಪಟ್ಟಿಯ ವಿವರಗಳೊಂದಿಗೆ ದೃಢೀಕರಣ ಇಮೇಲ್ ಅನ್ನು ನೀವು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "confirmed_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಲಾಗಿದೆ",
+        "confirmed_description": "ನಾವು ನಿಮ್ಮ ಆದೇಶವನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ ಮತ್ತು ನಾವು ಅದನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಿದ್ದೇವೆ. ನಿಮ್ಮ ಶಿಪ್‌ಮೆಂಟ್ ಸ್ಥಿತಿಯ ನವೀಕರಣಗಳಿಗಾಗಿ ಈ ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ.",
+        "ready_for_pickup_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ",
+        "ready_for_pickup_description": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪಿಕಪ್‌ಗೆ ಸಿದ್ಧವಾಗಿದೆ. ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ನೀವು ತೆಗೆದುಕೊಂಡಾಗ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಆರ್ಡರ್ ದೃಢೀಕರಣವನ್ನು ತನ್ನಿ.",
+        "ready_for_delivery_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ವಿತರಣೆಗೆ ಸಿದ್ಧವಾಗಿದೆ.",
+        "ready_for_delivery_description": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ನಾವು ಸಿದ್ಧಪಡಿಸಿದ್ದೇವೆ.",
+        "order_updates_title": "ಆರ್ಡರ್ ನವೀಕರಣಗಳು",
+        "shop_phone_description": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಸಹಾಯ ಮಾಡಲು ಶಾಪ್ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಲಿಂಕ್ ಹೊಂದಿರುವ ಪಠ್ಯವನ್ನು ನೀವು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "order_updates_description_html": "ನವೀಕರಣಗಳನ್ನು %{customer_contact} ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ",
+        "order_updates_current_step_prefix": "ಪ್ರಸ್ತುತ ಹಂತ:",
+        "order_updates_past_step_prefix": "ಹಿಂದಿನ ಹಂತ:",
+        "order_updates_upcoming_step_prefix": "ಮುಂಬರುವ ಹಂತ:",
+        "branded_promise": {
+          "shop_promise": {
+            "delivered": {
+              "delayed": "%{date} ರಂದು ವಿತರಿಸಲಾಗಿದೆ, ಮೂಲತಃ %{original_delivery_date} ದಿನಾಂಕದಂದು ನಿರೀಕ್ಷಿಸಲಾಗಿದೆ"
+            },
+            "guarantee": {
+              "app_user": {
+                "popover_title": "ನಿಮ್ಮ ಶಾಪ್ ನಗದನ್ನು ಪಡೆಯಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+                "popover_subtitle": "ನಿಮ್ಮ ಆರ್ಡರ್ ನಿರೀಕ್ಷೆಗಿಂತ ತಡವಾಗಿ ಬಂದಿದೆ. ಶಾಪ್ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಭವಿಷ್ಯದ ಖರೀದಿಯಲ್ಲಿ ನಿಮ್ಮ ಶಾಪ್ ನಗದನ್ನು ಬಳಸಿ."
+              },
+              "non_app_user": {
+                "popover_title": "ನಿಮ್ಮ ಶಾಪ್ ನಗದನ್ನು ಪಡೆಯಲು ಶಾಪ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+                "popover_subtitle": "ನಿಮ್ಮ ಆರ್ಡರ್ ನಿರೀಕ್ಷೆಗಿಂತ ತಡವಾಗಿ ಬಂದಿದೆ. ಭವಿಷ್ಯದ ಖರೀದಿಯಲ್ಲಿ ನಿಮ್ಮ ಶಾಪ್ ನಗದನ್ನು ಬಳಸಲು ಶಾಪ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+              }
+            }
+          }
+        }
+      },
+      "review": {
+        "title": "ಸಮೀಕ್ಷೆ",
+        "review_title": "ಆದೇಶವನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "checkout_as_guest": "ಅತಿಥಿಯಾಗಿ ಚೆಕ್ಔಟ್ ಮಾಡಿ",
+        "blocks": {
+          "contact_method_title": "ಸಂಪರ್ಕಿಸಿ",
+          "billing_address_title": "ಬಿಲ್ಲಿಂಗ್",
+          "shipping_address_title": "ಗೆ ಕಳಿಸು",
+          "shipping_method_title": "ವಿಧಾನ",
+          "payment_method_title": "ಪಾವತಿ",
+          "change_link_label": "ಬದಲಾವಣೆ",
+          "change_contact_method_link_label": "ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಬದಲಾಯಿಸಿ",
+          "change_billing_address_link_label": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಬದಲಾಯಿಸಿ",
+          "change_shipping_address_link_label": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಬದಲಾಯಿಸಿ",
+          "change_shipping_method_link_label": "ಶಿಪ್ಪಿಂಗ್ ವಿಧಾನವನ್ನು ಬದಲಾಯಿಸಿ",
+          "change_payment_method_link_label": "ಪಾವತಿ ವಿಧಾನವನ್ನು ಬದಲಾಯಿಸಿ",
+          "pick_up_in_store_shipping_method_html": "ಅಂಗಡಿಯಲ್ಲಿ ಪಿಕ್ ಅಪ್ · %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "ಸುದ್ದಿ ಮತ್ತು ಕೊಡುಗೆಗಳೊಂದಿಗೆ ನನಗೆ ಇಮೇಲ್ ಮಾಡಿ",
+        "post_accept_marketing_checkbox_label": "ಇಮೇಲ್ ಸುದ್ದಿ ಮತ್ತು ಕೊಡುಗೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ನೀವು ಚಂದಾದಾರರಾಗಿರುವಿರಿ",
+        "pending_accept_marketing_checkbox_label": "ಸುದ್ದಿ ಮತ್ತು ಕೊಡುಗೆಗಳಿಗೆ ನಿಮ್ಮ ಚಂದಾದಾರಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸಲು ನಿಮ್ಮ ಇಮೇಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "accept_sms_checkbox_label": "ಸುದ್ದಿ ಮತ್ತು ಕೊಡುಗೆಗಳೊಂದಿಗೆ ನನಗೆ ಪಠ್ಯ ಸಂದೇಶ ಕಳುಹಿಸಿ",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+            "terms_of_service": "ಸೇವಾ ನಿಯಮಗಳು",
+            "description_html": "ಪಠ್ಯದ ಮೂಲಕ ಸೈನ್ ಅಪ್ ಮಾಡುವ ಮೂಲಕ, ಒದಗಿಸಿದ ಫೋನ್ ಸಂಖ್ಯೆಯಲ್ಲಿ ಕಾರ್ಟ್ ರಿಮೈಂಡರ್‌ಗಳು ಸೇರಿದಂತೆ ಮರುಕಳಿಸುವ ಸ್ವಯಂಚಾಲಿತ ಮಾರ್ಕೆಟಿಂಗ್ ಸಂದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ನೀವು ಒಪ್ಪುತ್ತೀರಿ. ಸಮ್ಮತಿಯು ಖರೀದಿಯ ಸ್ಥಿತಿಯಲ್ಲ. ಅನ್‌ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಲು STOP ಎಂದು ಪ್ರತ್ಯುತ್ತರಿಸಿ. ಸಹಾಯಕ್ಕಾಗಿ ಸಹಾಯ ಎಂದು ಪ್ರತ್ಯುತ್ತರಿಸಿ. ಸಂದೇಶ ಆವರ್ತನ ಬದಲಾಗುತ್ತದೆ. ಸಂದೇಶ ಮತ್ತು ಡೇಟಾ ದರಗಳು ಅನ್ವಯಿಸಬಹುದು. ನಮ್ಮ %{privacy_policy_link} ಮತ್ತು %{terms_of_service_link} ಅನ್ನು ವೀಕ್ಷಿಸಿ.",
+            "description_transactional_html": "ಆರ್ಡರ್ ದೃಢೀಕರಣ ಮತ್ತು ಶಿಪ್ಪಿಂಗ್ ನವೀಕರಣಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ನೀವು ಸ್ವೀಕರಿಸಬಹುದು. ಅನ್‌ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಲು STOP ಎಂದು ಪ್ರತ್ಯುತ್ತರಿಸಿ. ಸಹಾಯಕ್ಕಾಗಿ ಸಹಾಯ ಎಂದು ಪ್ರತ್ಯುತ್ತರಿಸಿ. ಸಂದೇಶ ಆವರ್ತನ ಬದಲಾಗುತ್ತದೆ. ಸಂದೇಶ ಮತ್ತು ಡೇಟಾ ದರಗಳು ಅನ್ವಯಿಸಬಹುದು. ನಮ್ಮ %{privacy_policy_modal_link} ಮತ್ತು %{terms_of_service_modal_link} ಅನ್ನು ವೀಕ್ಷಿಸಿ."
+          }
+        },
+        "unsubscribe": {
+          "title": "ನೀವು ಅನ್‌ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿದ್ದೀರಿ",
+          "description": "ನೀವು ನಮ್ಮಿಂದ ಯಾವುದೇ ಕಾರ್ಟ್ ರಿಮೈಂಡರ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ."
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "ಮರುಪಾವತಿ ನೀತಿ",
+        "privacy_policy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+        "terms_of_service": "ಸೇವಾ ನಿಯಮಗಳು",
+        "legal_notice": "ಕಾನೂನು ಸೂಚನೆ",
+        "shipping_policy": "ಶಿಪ್ಪಿಂಗ್ ನೀತಿ",
+        "terms_of_sale": "ಮಾರಾಟದ ನಿಯಮಗಳು",
+        "subscription_policy": "ಖರೀದಿ ಆಯ್ಕೆಗಳ ರದ್ದತಿ ನೀತಿ",
+        "purchase_options_policy": "ಖರೀದಿ ಆಯ್ಕೆಗಳ ನೀತಿ",
+        "contact_information": "ಸಂಪರ್ಕ ಮಾಹಿತಿ"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "ರೆಕಾರ್ಡ್ ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳ ವ್ಯಾಪಾರಿ",
+        "privacy_policy": "ಮರ್ಚೆಂಟ್ ಆಫ್ ರೆಕಾರ್ಡ್ ಗೌಪ್ಯತೆ ನೀತಿ"
+      },
+      "remember_me": {
+        "shopify_pay_label": "ಶಾಪ್ ಪೇ",
+        "save": "ಉಳಿಸಿ",
+        "title": "ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿ ಇಡು",
+        "label": "ವೇಗವಾದ ಚೆಕ್‌ಔಟ್‌ಗಾಗಿ ನನ್ನ ಮಾಹಿತಿಯನ್ನು ಉಳಿಸಿ",
+        "description_html": "ಮುಂದಿನ ಬಾರಿ ನೀವು ಇಲ್ಲಿ ಅಥವಾ Shopify ಚಾಲಿತ ಇತರ ಅಂಗಡಿಗಳಲ್ಲಿ ಚೆಕ್ ಔಟ್ ಮಾಡಿ, ಶಾಪ್ ಪೇ ಮೂಲಕ ಸುರಕ್ಷಿತವಾಗಿ ಖರೀದಿಸಲು ಪಠ್ಯ ಸಂದೇಶದ ಮೂಲಕ ಕೋಡ್ ಅನ್ನು ನೀವು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "mobile_phone_icon_alt": "ಮೊಬೈಲ್ ಫೋನ್",
+        "mobile_phone_number": "ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆ",
+        "terms_and_privacy_html": "ಮುಂದುವರಿಸುವ ಮೂಲಕ, ನೀವು ಶಾಪ್ ಪೇಯ %{privacy_href} ಮತ್ತು %{terms_href} ಗೆ ಸಮ್ಮತಿಸುತ್ತೀರಿ.",
+        "external_acessibility_label": "(ಹೊಸ ವಿಂಡೋವನ್ನು ತೆರೆಯುತ್ತದೆ)",
+        "privacy_policy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+        "terms_of_service": "ಸೇವಾ ನಿಯಮಗಳು",
+        "errors": {
+          "optin": "ಶಾಪ್ ಪೇ ಲಭ್ಯವಿಲ್ಲ"
+        },
+        "installments": {
+          "paid_in_installments": "ಶಾಪ್ ಪೇ ಜೊತೆಗೆ ಕಂತುಗಳಲ್ಲಿ ಪಾವತಿಸಲಾಗಿದೆ.",
+          "view_schedule": "ವೇಳಾಪಟ್ಟಿಯನ್ನು ವೀಕ್ಷಿಸಿ"
+        }
+      },
+      "notifications": {
+        "title": "ಅಧಿಸೂಚನೆಗಳು"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "%{order_name} ಆರ್ಡರ್‌ಗೆ ಪಾವತಿಸಬೇಕಾದ ಮೊತ್ತ",
+        "changes_summary": {
+          "added": {
+            "one": "ಸೇರಿಸಲಾಗಿದೆ",
+            "other": "%{count} ಸೇರಿಸಲಾಗಿದೆ"
+          },
+          "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+          "subtracted": "%{count} ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+        },
+        "additional_payment_requested": "%{total_outstanding} ಮೊತ್ತದ ಪಾವತಿಯ ಅಗತ್ಯವಿದೆ",
+        "checkout_review_and_pay": "ನಿಮ್ಮ ಆರ್ಡರ್ %{order_name} ಅನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ. ಈ ಬದಲಾವಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ನಿಮ್ಮ ಆದೇಶವನ್ನು ಖಚಿತಪಡಿಸಲು ಪಾವತಿಸಿ.",
+        "order_updated_on": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು %{last_edited_at} ರಂದು ನವೀಕರಿಸಲಾಗಿದೆ.",
+        "order_review_and_pay": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಆದೇಶವನ್ನು ದೃಢೀಕರಿಸಲು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪಾವತಿಸಿ.",
+        "pay_now": "ಈಗ ಪಾವತಿಸಿ"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್‌ಗೆ %{amount} ಶುಲ್ಕ ವಿಧಿಸಲಾಗುತ್ತದೆ",
+        "payment_total_label": "ಪಾವತಿ ಒಟ್ಟು",
+        "change_currency_link": "%{currency_name} ಗೆ ಬದಲಾಯಿಸಿ",
+        "card_provider_fx_charges_warning": "ನಿಮ್ಮ ಕಾರ್ಡ್ ಒದಗಿಸುವವರು %{currency_code} ವಹಿವಾಟುಗಳಿಗೆ ಶುಲ್ಕ ವಿಧಿಸಬಹುದು.",
+        "currency_not_supported_by_shop": "ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಕರೆನ್ಸಿ ಇನ್ನು ಮುಂದೆ ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ಎಲ್ಲಾ ಬೆಲೆಗಳು ಈಗ %{currency_code} ನಲ್ಲಿವೆ."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "ನಿಮ್ಮ ಶಿಪ್ಪಿಂಗ್ ದೇಶವನ್ನು ಆಧರಿಸಿ ನಿಮ್ಮ ಕಾರ್ಟ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "ನಿಮ್ಮ ದೇಶ\/ಪ್ರದೇಶವನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ. ಚೆಕ್ಔಟ್ ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ."
+      },
+      "tips": {
+        "title": "ಸುಳಿವು ಸೇರಿಸಿ",
+        "description": "%{shop_name} ನಲ್ಲಿ ತಂಡಕ್ಕೆ ನಿಮ್ಮ ಬೆಂಬಲವನ್ನು ತೋರಿಸಿ",
+        "presets_description": "ತುದಿ ಶೇಕಡಾವಾರು ಆಯ್ಕೆಮಾಡಿ",
+        "custom_label": "ಕಸ್ಟಮ್ ಸಲಹೆ",
+        "add_tip": "ಸುಳಿವು ಸೇರಿಸಿ",
+        "update_tip": "ಸಲಹೆಯನ್ನು ನವೀಕರಿಸಿ",
+        "message": "ಧನ್ಯವಾದಗಳು, ನಾವು ಅದನ್ನು ಪ್ರಶಂಸಿಸುತ್ತೇವೆ",
+        "no_tip_label": "ಯಾವುದೂ"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "%{product_name} ಅನ್ನು ಖರೀದಿಸಿ",
+          "one": "%{product_name} ಮತ್ತು %{count} ಇತರ ಐಟಂ ಅನ್ನು ಖರೀದಿಸಿ",
+          "other": "%{product_name} ಮತ್ತು %{count} ಇತರ ಐಟಂಗಳನ್ನು ಖರೀದಿಸಿ"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "ದಿನ",
+            "other": "%{count} ದಿನಗಳು"
+          },
+          "week": {
+            "one": "ವಾರ",
+            "other": "%{count} ವಾರಗಳು"
+          },
+          "month": {
+            "one": "ತಿಂಗಳು",
+            "other": "%{count} ತಿಂಗಳುಗಳು"
+          },
+          "year": {
+            "one": "ವರ್ಷ",
+            "other": "%{count} ವರ್ಷಗಳು"
+          }
+        },
+        "recurring_totals": "%{total_price} ಪ್ರತಿ %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "ಮೊದಲ ಪಾವತಿ %{total_price_with_discount}, ನಂತರ %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "ಮೊದಲ ಪಾವತಿ %{total_price}",
+            "other": "ಮೊದಲ %{count} ಪಾವತಿಗಳು ಪ್ರತಿ %{total_price}"
+          },
+          "following_cycles": ", ನಂತರ %{total_price} ಪ್ರತಿ %{interval}"
+        }
+      }
+    }
+  }
+}
