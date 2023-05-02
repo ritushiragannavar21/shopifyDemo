@@ -966,6 +966,130 @@
         "last_updated": "ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ {{date}}",
         "multiple_shipments_label": "ಬಹು ಸಾಗಣೆಗಳು"
       }
+    },
+    "order_details": {
+      "taxes": "ತೆರಿಗೆಗಳು",
+      "title": "ಆರ್ಡರ್ {{name}}",
+      "total": "ಒಟ್ಟು",
+      "unit_price": "( {{price}} \/ea)",
+      "pagination": {
+        "load_more": "ಹೆಚ್ಚು ಲೋಡ್ ಮಾಡಿ",
+        "load_more_accessibility_label": "ಹೆಚ್ಚಿನ ವಸ್ತುಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ",
+        "loading_accessibility_label": "ಐಟಂಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+      },
+      "login_to_view_all_order_details": "ಎಲ್ಲಾ ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಲಾಗ್ ಇನ್ ಮಾಡಿ.",
+      "log_in": "ಲಾಗ್ ಇನ್ ಮಾಡಿ"
+    },
+    "addresses": {
+      "add_button": "ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+      "add_button_text": "ಸೇರಿಸಿ",
+      "add_button_accessibility_label": "ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+      "back_button": "ಹಿಂದೆ",
+      "back_button_accessibility_label": "ಸಂಪಾದನೆ ವಿಳಾಸಕ್ಕೆ ಹಿಂತಿರುಗಿ {{address}}",
+      "add_address_banner": "ಚೆಕ್‌ಔಟ್‌ನಲ್ಲಿ ಬಳಸಲು ವಿಳಾಸಗಳನ್ನು ಸೇರಿಸಿ",
+      "address_deleted_notification": "ವಿಳಾಸವನ್ನು ಅಳಿಸಲಾಗಿದೆ",
+      "cancel_adding_address_accessibility_label": "ವಿಳಾಸವನ್ನು ಸೇರಿಸುವುದನ್ನು ರದ್ದುಮಾಡಿ",
+      "cancel_deletion_button": "ರದ್ದುಮಾಡಿ",
+      "cancel_deletion_button_accessibility_label": "{{address}} ಅಳಿಸುವಿಕೆಯನ್ನು ರದ್ದುಮಾಡಿ",
+      "default_address": {
+        "title": "ಡೀಫಾಲ್ಟ್ ವಿಳಾಸ",
+        "title_accessibility_label": "ಡೀಫಾಲ್ಟ್ ವಿಳಾಸ: {{address}}"
+      },
+      "delete_button": "ಅಳಿಸಿ",
+      "delete_button_accessibility_label": "{{address}} ಅಳಿಸಿ",
+      "delete_confirmation_button": "ವಿಳಾಸವನ್ನು ಅಳಿಸಿ",
+      "delete_confirmation_button_accessibility_label": "{{address}} ಅಳಿಸಿ",
+      "delete_confirmation_message": "ವಿಳಾಸವನ್ನು ಅಳಿಸುವುದೇ? ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಆದೇಶಗಳು ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ.",
+      "delete_confirmation_title": "ವಿಳಾಸವನ್ನು ಅಳಿಸುವುದೇ?",
+      "delete_confirmation_description": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಆದೇಶಗಳು ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ.",
+      "edit_button": "ತಿದ್ದು",
+      "edit_button_accessibility_label": "{{address}} ಸಂಪಾದಿಸಿ",
+      "edit_section_accessibility_label": "{{address}} ಸಂಪಾದಿಸಿ",
+      "edit_modal_title": {
+        "default": "ವಿಳಾಸವನ್ನು ಸಂಪಾದಿಸಿ",
+        "billing": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಸಂಪಾದಿಸಿ",
+        "shipping": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಸಂಪಾದಿಸಿ"
+      },
+      "loading_accessibility_message": "ವಿಳಾಸವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "loading_addresses_accessibility_message": "ವಿಳಾಸಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "loading_billing_accessibility_message": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "loading_finished_accessibility_message": "ವಿಳಾಸಗಳ ಹೊಸ ಪುಟವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+      "loading_shipping_accessibility_message": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "pagination": {
+        "load_more": "ಹೆಚ್ಚು ಲೋಡ್ ಮಾಡಿ",
+        "load_more_accessibility_label": "ಹೆಚ್ಚಿನ ವಿಳಾಸಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ"
+      },
+      "save_new_address_accessibility_label": "ವಿಳಾಸವನ್ನು ಉಳಿಸಿ",
+      "title": "ವಿಳಾಸಗಳು",
+      "billing_address_dropdown_placeholder": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸ"
+    },
+    "address_form": {
+      "attention": "ಗಮನ",
+      "attention_help_text": "ವ್ಯಕ್ತಿಯ ಅಥವಾ ಇಲಾಖೆಯ ಹೆಸರು",
+      "auto_complete_close_accessibility_label": "ಸಲಹೆಗಳನ್ನು ಮುಚ್ಚಿ",
+      "auto_complete_title": "ಸಲಹೆಗಳು",
+      "billing_address": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವಾಗಿ ಬಳಸಿ",
+      "cancel": "ರದ್ದುಮಾಡಿ",
+      "cancel_accessibility_label": "ವಿಳಾಸ ಸಂಪಾದನೆಯನ್ನು ರದ್ದುಮಾಡಿ {{address}}",
+      "creation_success_notification": "ವಿಳಾಸ ಸೇರಿಸಲಾಗಿದೆ",
+      "default_address": "ಇದು ನನ್ನ ಡೀಫಾಲ್ಟ್ ವಿಳಾಸ",
+      "default_address_creation_success_notification": "ಡೀಫಾಲ್ಟ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಲಾಗಿದೆ",
+      "default_address_update_success_notification": "ಡೀಫಾಲ್ಟ್ ವಿಳಾಸವನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ",
+      "loading_add_form_accessibility_message": "ಹೊಸ ವಿಳಾಸ ಫಾರ್ಮ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "loading_edit_form_accessibility_message": "ಸಂಪಾದನೆ ವಿಳಾಸ ಫಾರ್ಮ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "loading_form_accessibility_message": "ವಿಳಾಸ ಫಾರ್ಮ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+      "loading_finished_accessibility_message": "ವಿಳಾಸ ಫಾರ್ಮ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+      "save": "ಉಳಿಸಿ",
+      "save_accessibility_label": "ವಿಳಾಸವನ್ನು ಉಳಿಸಿ {{address}}",
+      "section_title_accessibility_label": "ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+      "update_success_notification": "ವಿಳಾಸವನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+        "company_card_section_accessibility_label": "ಕಂಪನಿ",
+        "company_card_main_contact_label": "ಮುಖ್ಯ ಸಂಪರ್ಕ",
+        "company_card_location_count_label": "ಸ್ಥಳಗಳು"
+      },
+      "locations": {
+        "contact_email": "ಇಮೇಲ್",
+        "contact_list_title": "ಜನರು",
+        "contact_name": "ಹೆಸರು",
+        "contact_permissions": "ಅನುಮತಿಗಳು",
+        "contact_phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+        "location_picker_label": "ಸ್ಥಳದ ಹೆಸರು",
+        "location_picker_accessibility_label": "ಸ್ಥಳದ ಹೆಸರು: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : {{numberOfDays}} ದಿನಗಳಲ್ಲಿ ಪಾವತಿಗಳನ್ನು ಪಾವತಿಸಬೇಕಾಗುತ್ತದೆ",
+        "own_role_contact_name": "ನೀವು",
+        "pagination": {
+          "load_more": "ಹೆಚ್ಚು ಲೋಡ್ ಮಾಡಿ",
+          "load_more_accessibility_label": "ಹೆಚ್ಚಿನ ಸ್ಥಳಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ"
+        },
+        "payment_details_title": "ಪಾವತಿ ವಿವರಗಳು",
+        "payment_terms": "ಪಾವತಿ ನಿಯಮಗಳು",
+        "permissions_label": "ನಿಮ್ಮ ಅನುಮತಿಗಳು",
+        "permissions_title": "ಅನುಮತಿಗಳು",
+        "section_title": "ಸ್ಥಳ",
+        "shipping_address_required": "ಆರ್ಡರ್‌ಗಳನ್ನು ಮಾಡುವುದನ್ನು ಪ್ರಾರಂಭಿಸಲು ಈ ಸ್ಥಳಕ್ಕೆ ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ.",
+        "staff_and_permissions_title": "ಸಿಬ್ಬಂದಿ ಮತ್ತು ಅನುಮತಿಗಳು",
+        "tax_details_title": "ತೆರಿಗೆ ವಿವರಗಳು",
+        "tax_id": "ತೆರಿಗೆ ID",
+        "tax_exemptions": "ತೆರಿಗೆ ವಿನಾಯಿತಿಗಳು",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} ಹೆಚ್ಚು",
+        "multiple_tax_exemptions_and": "ಮತ್ತು",
+        "tax_exemptions_modal_close": "ಮುಚ್ಚಿ",
+        "taxes_none": "ಯಾವುದೂ",
+        "tax_exemption_not_applicable": "ಎನ್ \/ ಎ",
+        "tax_exemptions_modal_button_accessibility_label": "ಎಲ್ಲಾ ತೆರಿಗೆ ವಿನಾಯಿತಿಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+      },
+      "location_selection": {
+        "continue_to_store": "ಸಂಗ್ರಹಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ",
+        "description": "ನಿಮ್ಮ ಕಾರ್ಟ್‌ನಲ್ಲಿ ನೀವು ಈಗಾಗಲೇ ಐಟಂಗಳನ್ನು ಹೊಂದಿದ್ದರೆ, ಸ್ಥಳಗಳನ್ನು ಬದಲಾಯಿಸುವುದರಿಂದ ಕಾರ್ಟ್ ಬೆಲೆಗಳು ಮತ್ತು ಪ್ರಮಾಣಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.",
+        "list_accessibility_label": "ಸ್ಥಳಗಳ ಪಟ್ಟಿ",
+        "list_item_without_address_accessibility_label": "{{name}} : ವಿಳಾಸವಿಲ್ಲ",
+        "list_loading_accessibility_message": "ಸ್ಥಳಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+        "list_loading_address_accessibility_message": "{{locationName}} ಗಾಗಿ ವಿಳಾಸವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+      }
     }
   },
   "customer": {
