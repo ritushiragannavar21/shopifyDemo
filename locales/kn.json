@@ -373,7 +373,10 @@
         "branded_promise": {
           "shop_promise": {
             "delivered": {
-              "delayed": "%{date} ರಂದು ವಿತರಿಸಲಾಗಿದೆ, ಮೂಲತಃ %{original_delivery_date} ದಿನಾಂಕದಂದು ನಿರೀಕ್ಷಿಸಲಾಗಿದೆ"
+              "delayed": "%{date} ರಂದು ವಿತರಿಸಲಾಗಿದೆ, ಮೂಲತಃ %{original_delivery_date} ದಿನಾಂಕದಂದು ನಿರೀಕ್ಷಿಸಲಾಗಿದೆ",
+              "guaranteed_on_time": "ಜೊತೆಗೆ ಸಮಯಕ್ಕೆ ತಲುಪಿಸಲಾಗಿದೆ",
+              "on_time": "ಜೊತೆಗೆ %{date} ರೊಳಗೆ ತಲುಪಿಸಲಾಗಿದೆ",
+              "guaranteed_delayed": "ನಿಮ್ಮ ಸಾಗಣೆಯು ನಿರೀಕ್ಷಿತ ದಿನಾಂಕ %{date} ನಂತರ ಬಂದಿರುವುದರಿಂದ, ನೀವು %{shop_cash} ಗೆ ಅರ್ಹರಾಗಬಹುದು"
             },
             "guarantee": {
               "app_user": {
@@ -384,9 +387,132 @@
                 "popover_title": "ನಿಮ್ಮ ಶಾಪ್ ನಗದನ್ನು ಪಡೆಯಲು ಶಾಪ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
                 "popover_subtitle": "ನಿಮ್ಮ ಆರ್ಡರ್ ನಿರೀಕ್ಷೆಗಿಂತ ತಡವಾಗಿ ಬಂದಿದೆ. ಭವಿಷ್ಯದ ಖರೀದಿಯಲ್ಲಿ ನಿಮ್ಮ ಶಾಪ್ ನಗದನ್ನು ಬಳಸಲು ಶಾಪ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
               }
+            },
+            "confirmed": {
+              "guaranteed_on_time": "ಇದರೊಂದಿಗೆ %{date} ಮೂಲಕ ವಿತರಣೆಯನ್ನು ಖಾತರಿಪಡಿಸಲಾಗಿದೆ",
+              "on_time": "ಇದರೊಂದಿಗೆ %{date} ರೊಳಗೆ ವಿತರಣೆ"
+            },
+            "in_transit": {
+              "guaranteed_on_time": "ಇದರೊಂದಿಗೆ %{date} ಮೂಲಕ ವಿತರಣೆಯನ್ನು ಖಾತರಿಪಡಿಸಲಾಗಿದೆ",
+              "on_time": "ಇದರೊಂದಿಗೆ %{date} ರೊಳಗೆ ವಿತರಣೆ",
+              "guaranteed_delayed": "ನಿಮ್ಮ ಸಾಗಣೆಯು %{date} ಕ್ಕೆ ನಿರೀಕ್ಷಿಸಿದಂತೆ ತಲುಪಲಿಲ್ಲ. ಅದು ಬಂದ ನಂತರ ನೀವು ಇದರೊಂದಿಗೆ ಕ್ಲೈಮ್ ಅನ್ನು ಸಲ್ಲಿಸಬಹುದು",
+              "delayed": "%{date} ರೊಳಗೆ ನಿಮ್ಮ ಸಾಗಣೆಯು ವಿಳಂಬವಾಗಿದೆ."
+            },
+            "out_for_delivery": {
+              "guaranteed_on_time": "ಇದರೊಂದಿಗೆ %{date} ಮೂಲಕ ವಿತರಣೆಯನ್ನು ಖಾತರಿಪಡಿಸಲಾಗಿದೆ",
+              "on_time": "ಇದರೊಂದಿಗೆ %{date} ರೊಳಗೆ ವಿತರಣೆ",
+              "guaranteed_delayed": "ನಿಮ್ಮ ಸಾಗಣೆಯು %{date} ಕ್ಕೆ ನಿರೀಕ್ಷಿಸಿದಂತೆ ತಲುಪಲಿಲ್ಲ. ಅದು ಬಂದ ನಂತರ ನೀವು ಇದರೊಂದಿಗೆ ಕ್ಲೈಮ್ ಅನ್ನು ಸಲ್ಲಿಸಬಹುದು",
+              "delayed": "%{date} ರೊಳಗೆ ನಿಮ್ಮ ಸಾಗಣೆಯು ವಿಳಂಬವಾಗಿದೆ."
             }
           }
-        }
+        },
+        "in_transit": "ಅದರ ದಾರಿಯಲ್ಲಿ",
+        "in_transit_title": "ನಿಮ್ಮ ಆದೇಶವು ಅದರ ಹಾದಿಯಲ್ಲಿದೆ",
+        "in_transit_description": "ಅದರ ಪ್ರಗತಿಯ ಕುರಿತು ನೀವು ನವೀಕರಣಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
+        "in_transit_description_days": "ಮುಂದಿನ %{number} ದಿನಗಳಲ್ಲಿ ನಿಮ್ಮ ಆದೇಶವನ್ನು ನೀವು ಸ್ವೀಕರಿಸಬೇಕು.",
+        "in_transit_description_today": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ನೀವು ಇಂದೇ ಸ್ವೀಕರಿಸಬೇಕು.",
+        "in_transit_description_tomorrow": "ಮರುದಿನ ನಿಮ್ಮ ಆದೇಶವನ್ನು ನೀವು ಸ್ವೀಕರಿಸಬೇಕು.",
+        "no_tracking_number": "ಈ ಆದೇಶಕ್ಕೆ ಯಾವುದೇ ಟ್ರ್ಯಾಕಿಂಗ್ ಸಂಖ್ಯೆ ಇಲ್ಲ.",
+        "out_for_delivery": "ವಿತರಣೆಗೆ ಹೊರಗಿದೆ",
+        "out_for_delivery_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ವಿತರಣೆಗೆ ಮುಗಿದಿದೆ",
+        "out_for_delivery_description_html": "ನಿಮ್ಮ ಆರ್ಡರ್ ಸಾಗುತ್ತಿದೆ ಮತ್ತು ಇಂದು ತಲುಪಬೇಕು. ಮುಂದಿನ 2 ದಿನಗಳಲ್ಲಿ ಅದನ್ನು ತಲುಪಿಸದಿದ್ದರೆ, %{contact_us}.",
+        "out_for_delivery_local_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ವಿತರಣೆಗೆ ಮುಗಿದಿದೆ",
+        "out_for_delivery_local_description_html": "ನಿಮ್ಮ ಆದೇಶವು ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ.",
+        "attempted_delivery": "ವಿತರಿಸಲು ಪ್ರಯತ್ನಿಸಿದೆ",
+        "attempted_delivery_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ತಲುಪಿಸಲು ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ",
+        "attempted_delivery_description_html": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ತಲುಪಿಸಲು ಪ್ರಯತ್ನಿಸಲಾಯಿತು ಆದರೆ ಅದು ವಿಫಲವಾಗಿದೆ. ಮತ್ತೊಂದು ವಿತರಣಾ ಪ್ರಯತ್ನವನ್ನು ವ್ಯವಸ್ಥೆ ಮಾಡಲು %{contact_us}.",
+        "attempted_delivery_local_title": "ತಪ್ಪಿದ ವಿತರಣೆ",
+        "attempted_delivery_local_description_html": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ತಲುಪಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಮತ್ತೊಂದು ವಿತರಣೆಯನ್ನು ನಿಗದಿಪಡಿಸಲು, %{contact_us}.",
+        "delivered": "ವಿತರಿಸಲಾಗಿದೆ",
+        "delivered_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ತಲುಪಿಸಲಾಗಿದೆ",
+        "delivered_description_html": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ನೀವು ಒದಗಿಸಿದ ವಿಳಾಸಕ್ಕೆ ತಲುಪಿಸಲಾಗಿದೆ. ನೀವು ಅದನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದರೆ, ಅಥವಾ ನೀವು ಯಾವುದೇ ಇತರ ಸಮಸ್ಯೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ, %{contact_us}.",
+        "delivered_local_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ತಲುಪಿಸಲಾಗಿದೆ",
+        "delivered_local_description_html": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಸ್ವೀಕರಿಸಲಿಲ್ಲವೇ? %{ನಮಗೆ ತಿಳಿಸು}.",
+        "payment_method_draft_order": "ಆದೇಶವನ್ನು ಪರಿಶೀಲಿಸಿದ ನಂತರ ಬಾಕಿ ಇದೆ",
+        "choose_payment_method_later": "ಪಾವತಿ ವಿಧಾನವನ್ನು ನಂತರ ಆಯ್ಕೆಮಾಡಿ",
+        "picked_up_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
+        "picked_up_description_html": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು %{location_name} ನಲ್ಲಿ %{date} ರಂದು ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.",
+        "contact_us": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+        "contact_us_lowercase": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+        "contact_us_html": "ಸಹಾಯ ಬೇಕೇ? %{ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ}",
+        "updated_time": "%{time_ago} ಹಿಂದೆ ನವೀಕರಿಸಲಾಗಿದೆ",
+        "failure": "ತಲುಪಿಲ್ಲ",
+        "failed_title": "ನಿಮ್ಮ ಆದೇಶವನ್ನು ತಲುಪಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+        "failed_contact_merchant": "ವಿತರಣೆಯನ್ನು ವ್ಯವಸ್ಥೆ ಮಾಡಲು %{company} ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "failed_contact_merchant_no_company": "ವಿತರಣೆಯನ್ನು ವ್ಯವಸ್ಥೆ ಮಾಡಲು ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "non_shippable_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "let_us_know": "ನಮಗೆ ತಿಳಿಸು",
+        "login_title": "ಎಲ್ಲಾ ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+        "login_description": "ನೀವು ಇಮೇಲ್ ಮೂಲಕ ಸ್ವೀಕರಿಸಿದ ರಶೀದಿಯಲ್ಲಿ ನಿಮ್ಮ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯನ್ನು ನೀವು ಕಾಣಬಹುದು.",
+        "login_description_phone": "ಪಠ್ಯ ಸಂದೇಶದ ಮೂಲಕ ನೀವು ಸ್ವೀಕರಿಸಿದ ರಶೀದಿಯಲ್ಲಿ ನಿಮ್ಮ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯನ್ನು ನೀವು ಕಾಣಬಹುದು.",
+        "login_not_customer_html": "%{name} ಅಲ್ಲವೇ? ನೀವು %{link} ಮಾಡಬಹುದು",
+        "login_reorder_link_text": {
+          "one": "ಈ ಉತ್ಪನ್ನವನ್ನು ಸಹ ಖರೀದಿಸಿ",
+          "other": "ಈ ಉತ್ಪನ್ನಗಳನ್ನು ಸಹ ಖರೀದಿಸಿ"
+        },
+        "customer_information_hidden_fields_message": "ಎಲ್ಲಾ ಗ್ರಾಹಕರ ಮಾಹಿತಿಯನ್ನು ವೀಕ್ಷಿಸಲು ಲಾಗ್ ಇನ್ ಮಾಡಿ.",
+        "cancelled_title": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ",
+        "cancelled_description": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು %{date} ರಂದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ. ನೀವು ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "order_number_label": "ಆದೇಶ ಸಂಖ್ಯೆ",
+        "customer_validation_error": "ಮಾನ್ಯವಾದ ಇಮೇಲ್ ಅಥವಾ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.",
+        "customer_validation_error_phone": "ಮಾನ್ಯವಾದ ಫೋನ್ ಅಥವಾ ಆರ್ಡರ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.",
+        "login": "ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+        "unfulfilled_items_title": "ಶಿಪ್ಪಿಂಗ್‌ಗೆ ತಯಾರಾಗುತ್ತಿದೆ",
+        "unfulfilled_items_description": "ನಾವು ಪ್ರಸ್ತುತ ಈ ವಸ್ತುಗಳನ್ನು ಶಿಪ್ಪಿಂಗ್‌ಗಾಗಿ ಸಿದ್ಧಪಡಿಸುತ್ತಿದ್ದೇವೆ.",
+        "marker": {
+          "current": "ಪ್ರಸ್ತುತ ಸಾಗಣೆ ಸ್ಥಳ",
+          "shipping": "ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸ"
+        },
+        "pick_up_in_store_marker": {
+          "current": "ಪ್ರಸ್ತುತ ಸಾಗಣೆ ಸ್ಥಳ",
+          "shipping": "ಪಿಕಪ್ ಸ್ಥಳ"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "ಈ ಸಾಗಣೆಯಲ್ಲಿರುವ ವಸ್ತುಗಳು",
+          "unfulfilled_table_title": "ಸರಕು ಸಾಗಣೆಗೆ ತಯಾರಿ ನಡೆಸುತ್ತಿರುವ ವಸ್ತುಗಳು",
+          "product_image_label": "ಉತ್ಪನ್ನ ಚಿತ್ರ",
+          "description_label": "ವಿವರಣೆ",
+          "quantity_label": "ಪ್ರಮಾಣ"
+        },
+        "opt_in_message_html": "%{shopify_pay} ನಲ್ಲಿ ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ",
+        "order_updates_description_missing": "ನೀವು ಶಿಪ್ಪಿಂಗ್ ನವೀಕರಣಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತಿಲ್ಲ.",
+        "order_updates_subscribe_to_email_notifications": "ಇಮೇಲ್ ಮೂಲಕ ಶಿಪ್ಪಿಂಗ್ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಿರಿ",
+        "order_updates_subscribe_to_email_or_phone_notifications": "ಇಮೇಲ್ ಅಥವಾ ಪಠ್ಯದ ಮೂಲಕ ಶಿಪ್ಪಿಂಗ್ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಿರಿ",
+        "order_updates_subscribe_to_phone_notifications": "ಪಠ್ಯದ ಮೂಲಕ ಶಿಪ್ಪಿಂಗ್ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಿರಿ",
+        "order_updates_submit_subscription": "ಸಲ್ಲಿಸು",
+        "optimus_button_label": "ಆಪ್ಟಿಮಸ್‌ನೊಂದಿಗೆ ಖರೀದಿಸಿ: ಪ್ಯಾಕೇಜ್ ಅನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ",
+        "track_shipment": "ಸಾಗಣೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ",
+        "shopify_pay": {
+          "order_completed_html": "%{shopify_pay} ನೊಂದಿಗೆ ಆರ್ಡರ್ ಪೂರ್ಣಗೊಂಡಿದೆ",
+          "learn_more_label": "ಶಾಪ್ ಪೇ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+        },
+        "other_options": "ಇತರ ಆಯ್ಕೆಗಳು",
+        "delivery_information_label": "ವಿತರಣಾ ಮಾಹಿತಿ:",
+        "gift_card_sent_confirmation": "ಉಡುಗೊರೆ ಕಾರ್ಡ್‌ಗಳನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ",
+        "qr_code": {
+          "send_link_to_phone": "ಅಥವಾ ನಿಮ್ಮ ಫೋನ್‌ಗೆ ಲಿಂಕ್ ಕಳುಹಿಸಿ",
+          "title": "ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ",
+          "subtitle": "ಶಾಪ್ ಮೂಲಕ ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಫೋನ್‌ನ ಕ್ಯಾಮೆರಾದೊಂದಿಗೆ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "ನಿಮ್ಮ ಫೋನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+            "description": "ನಿಮ್ಮ ಆರ್ಡರ್ ಅನ್ನು ರವಾನಿಸಿದ ನಂತರ ಶಾಪ್ ನಿಮಗೆ ನೈಜ-ಸಮಯದ ವಿತರಣಾ ನವೀಕರಣಗಳನ್ನು ಕಳುಹಿಸುತ್ತದೆ."
+          },
+          "sms": {
+            "title": "ಅಥವಾ ನಿಮ್ಮ ಫೋನ್‌ಗೆ ಲಿಂಕ್ ಕಳುಹಿಸಿ"
+          }
+        },
+        "view_business_customer_account": "ಖಾತೆಯನ್ನು ವೀಕ್ಷಿಸಿ",
+        "breadcrumbs_submitted": "ಸಲ್ಲಿಸಲಾಗಿದೆ",
+        "breadcrumbs_in_review": "ಮರುಪರಿಶೀಲನೆಯಲ್ಲಿ",
+        "breadcrumbs_confirmed": "ದೃಢಪಡಿಸಿದೆ",
+        "missing_shipping_address_banner": {
+          "title": "ಆರ್ಡರ್ ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸವನ್ನು ಹೊಂದಿಲ್ಲ",
+          "text_html": "ನಿಮ್ಮ ವಿಳಾಸವನ್ನು ಸೇರಿಸಲು %{contact_us}"
+        },
+        "first_payment_complete": "ಮೊದಲ ಪಾವತಿ ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "in_store_purchase": "ಅಂಗಡಿಯಲ್ಲಿ ಖರೀದಿ"
       },
       "review": {
         "title": "ಸಮೀಕ್ಷೆ",
