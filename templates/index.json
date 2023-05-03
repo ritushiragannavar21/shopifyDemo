@@ -1,14 +1,5 @@
 {
   "sections": {
-    "fe0b4cf8-52e9-443e-87af-ab4a8599a5db": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -282,10 +273,18 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "0dedebc1-5a32-4c32-a12b-1ddeeb247682": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% # product.title -> Health potion %}\n\n{{ product.title | upcase | remove: 'HEALTH' }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "fe0b4cf8-52e9-443e-87af-ab4a8599a5db",
     "image_banner",
     "rich_text",
     "featured_collection",
@@ -293,6 +292,7 @@
     "video",
     "multicolumn",
     "334fee79-fb0d-4407-ab0d-5515f957f2b6",
-    "3364a4d6-5f11-4200-bca2-250101340e98"
+    "3364a4d6-5f11-4200-bca2-250101340e98",
+    "0dedebc1-5a32-4c32-a12b-1ddeeb247682"
   ]
 }
