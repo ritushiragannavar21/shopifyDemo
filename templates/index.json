@@ -1,5 +1,14 @@
 {
   "sections": {
+    "fe0b4cf8-52e9-443e-87af-ab4a8599a5db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<title>\n  {{ page_title }}\n<\/title>\n{% if page_description -%}\n  <meta name=\"description\" content=\"{{ page_description | truncate: 150 }}\">\n{%- endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -276,6 +285,7 @@
     }
   },
   "order": [
+    "fe0b4cf8-52e9-443e-87af-ab4a8599a5db",
     "image_banner",
     "rich_text",
     "featured_collection",
